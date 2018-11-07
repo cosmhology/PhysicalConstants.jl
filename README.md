@@ -150,6 +150,8 @@ List of Constants
 
 
 ### Updated universal constants and particle properties ( thanks to Jean Maruani / Francis Sanchez)
+* [The_Dirac_Electron_From_Quantum_Chemistry_to_Holistic_Cosmology @ researchgate](https://www.researchgate.net/publication/287808070_The_Dirac_Electron_From_Quantum_Chemistry_to_Holistic_Cosmology)
+* [Dirac_Electron_From_Quantum_Chemistry_to_Holistic_Cosmology @ Wiley](https://onlinelibrary.wiley.com/doi/abs/10.1002/jccs.201500374)
 
 | Symbol | Name                     | Formula                  | Dimension        | Value            | Unit             |
 | ------ | ----                     | -----                    | ----             | -----            | ----             |
