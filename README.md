@@ -153,7 +153,7 @@ List of Constants
 
 | Symbol | Name                     | Formula                  | Dimension        | Value            | Unit             |
 | ------ | ----                     | -----                    | ----             | -----            | ----             |
-| `α`    | Fine structure constant  |                          | dimensionless    | (137.0359991)^-1 | `pure number`    |
+| `α`    | Fine structure constant  |     k_e.e^2 / ħc         | dimensionless    | (137.0359991)^-1 | `pure number`    |
 | `δ_e`  | Electron grav invariant  |                          | dimensionless    | 1.7517e-45       | `pure number`    |
 | `δ_n`  | Nucleon grav invariant   |                          | dimensionless    | 5.9138e-39       | `pure number`    |
 | `δ_X`  | Cross grav invariant     |                          | dimensionless    | 1.6917e-38       | `pure number`    |
