@@ -154,6 +154,7 @@ List of Constants
 | Symbol | Name                                      | Value                  | Unit             |
 | ------ | ----                                      | -----                  | ----             |
 | `α`    | Fine structure constant                   | (137.0359991)^-1       | `pure number`    |
+| `C`    | Gravitational velocity                    | 3.6993e44              | `m s^-1`         |
 | `R_u`  | Universe Hubble radius                    | 1.3065e26              | `m`              |
 | `M_u`  | Universe Sanchez Mass                     | 8.7936e52              | `kg`             |
 
