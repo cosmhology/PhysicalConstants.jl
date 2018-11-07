@@ -156,6 +156,7 @@ List of Constants
 | `α`    | Fine structure constant                   | (137.0359991)^-1       | `pure number`    |
 | `δ_e`  | Electron grav invariant                   | 1.7517e-45             | `pure number`    |
 | `δ_n`  | Nucleon grav invariant                    | 5.9138e-39             | `pure number`    |
+| `δ_X`  | Cross grav invariant                      | 1.6917e-38             | `pure number`    |
 | `C`    | Gravitational velocity                    | 3.6993e44              | `m s^-1`         |
 | `R_u`  | Universe Hubble radius                    | 1.3065e26              | `m`              |
 | `M_u`  | Universe Sanchez Mass                     | 8.7936e52              | `kg`             |
