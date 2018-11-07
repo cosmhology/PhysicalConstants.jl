@@ -147,6 +147,15 @@ List of Constants
 | `σ`    | Stefan-Boltzmann constant                 | 5.670367e-8            | `m^2`            |
 | `σ_e`  | Thomson cross section                     | 6.6524587158e-29       | `m^2`            |
 
+
+
+### Updated universal constants and particle properties ( thanks to Jean Maruani)
+
+| Symbol | Name                                      | Value                  | Unit             |
+| ------ | ----                                      | -----                  | ----             |
+| `M_u`  | Universe Sanchez Mass                     | 8.7936e52              | `kg` |
+
+
 License
 -------
 
