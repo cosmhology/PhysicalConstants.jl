@@ -153,7 +153,8 @@ List of Constants
 
 | Symbol | Name                                      | Value                  | Unit             |
 | ------ | ----                                      | -----                  | ----             |
-| `M_u`  | Universe Sanchez Mass                     | 8.7936e52              | `kg` |
+| `R_u`  | Universe Hubble radius                    | 1.3065e26              | `m`              |
+| `M_u`  | Universe Sanchez Mass                     | 8.7936e52              | `kg`             |
 
 
 License
