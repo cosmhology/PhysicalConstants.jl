@@ -151,15 +151,15 @@ List of Constants
 
 ### Updated universal constants and particle properties ( thanks to Jean Maruani / Francis Sanchez)
 
-| Symbol | Name                                      | Value                  | Unit             |
-| ------ | ----                                      | -----                  | ----             |
-| `α`    | Fine structure constant                   | (137.0359991)^-1       | `pure number`    |
-| `δ_e`  | Electron grav invariant                   | 1.7517e-45             | `pure number`    |
-| `δ_n`  | Nucleon grav invariant                    | 5.9138e-39             | `pure number`    |
-| `δ_X`  | Cross grav invariant                      | 1.6917e-38             | `pure number`    |
-| `C`    | Gravitational velocity                    | 3.6993e44              | `m s^-1`         |
-| `R_u`  | Universe Hubble radius                    | 1.3065e26              | `m`              |
-| `M_u`  | Universe Sanchez Mass                     | 8.7936e52              | `kg`             |
+| Symbol | Name                     | Formula                  | Dimension        | Value            | Unit             |
+| ------ | ----                     | -----                    | ----             | -----            | ----             |
+| `α`    | Fine structure constant  |                          | dimensionless    | (137.0359991)^-1 | `pure number`    |
+| `δ_e`  | Electron grav invariant  |                          | dimensionless    | 1.7517e-45       | `pure number`    |
+| `δ_n`  | Nucleon grav invariant   |                          | dimensionless    | 5.9138e-39       | `pure number`    |
+| `δ_X`  | Cross grav invariant     |                          | dimensionless    | 1.6917e-38       | `pure number`    |
+| `C`    | Gravitational velocity   |                          | L.T^-1           | 3.6993e44        | `m s^-1`         |
+| `R_U`  | Universe Hubble radius   | R_U=2G M_U/c)^2          | L                | 1.3065e26        | `m`              |
+| `M_U`  | Universe Sanchez Mass    | M_U=(ħc/G)^2/m_e.m_p.m_n | M                | 8.7936e52        | `kg`             |
 
 
 License
