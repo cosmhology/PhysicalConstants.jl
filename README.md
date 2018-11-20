@@ -156,11 +156,14 @@ List of Constants
 | Symbol | Name                     | Formula                  | Dimension        | Value            | Unit             |
 | ------ | ----                     | -----                    | ----             | -----            | ----             |
 | `α`    | Fine structure constant  |     k_e.e^2 / ħc         | dimensionless    | (137.0359991)^-1 | `pure number`    |
+| `ε_0`  | Electrical constant      | ε_0=α^-1  F_el=ħc/ε_0d^2 | dimensionless    | (137.0359991)^-1 | `pure number`    |
 | `δ_e`  | Electron grav invariant  |                          | dimensionless    | 1.7517e-45       | `pure number`    |
 | `δ_n`  | Nucleon grav invariant   |                          | dimensionless    | 5.9138e-39       | `pure number`    |
 | `δ_X`  | Cross grav invariant     |                          | dimensionless    | 1.6917e-38       | `pure number`    |
 | `C`    | Gravitational velocity   |                          | L.T^-1           | 3.6993e44        | `m s^-1`         |
 | `R_U`  | Universe Hubble radius   | R_U=2G.M_U/c)^2          | L                | 1.3065e26        | `m`              |
+| `G_F`  | Fermi Constant           | G_F=ħ^3/cm_F^2           |   ML^5T^-2       | 8.7936e52        | `J.m^3`          |
+| `a_G`  | Gravitat Sanchez Const.  | a_G=ħc/Gm_pm_H           | dimensionless    | 1.6919335e38     | `pure number`    |
 | `M_U`  | Universe Sanchez Mass    | M_U=(ħc/G)^2/m_e.m_p.m_n | M                | 8.7936e52        | `kg`             |
 
 
