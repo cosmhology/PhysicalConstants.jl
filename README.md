@@ -61,8 +61,8 @@ You can turn a `Constant` into a `Quantity` object, with physical units, by
 using `float(x)`:
 
 ```julia
-julia> float(ε_0)
-8.854187817620389e-12 F m^-1
+julia> float(Float32(inv(big(α))))
+137.036f0
 ```
 
 You can optionally specify the floating-point precision of the resulting number,
