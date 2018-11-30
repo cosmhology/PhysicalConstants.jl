@@ -136,7 +136,8 @@ List of Constants
 | `e`    | Elementary charge                         | 1.6021766208e-19       | `C`              |
 | `g_n`  | Standard acceleration of gravitation      | 9.80665                | `m s^-2`         |
 | `h`    | Planck constant                           | 6.62607004e-34         | `J s`            |
-| `k_B`  | Boltzmann constant                        | 1.38064852e-23         | `J K^-1`         |
+| `k_B`  | Boltzman Energy-temperature Convers°      | 1.3806488e-23          | `J K^-1`         |
+| `k_B'` | Boltzmann constant                        | 1.38064852e-23         | `J K^-1`         |
 | `m_e`  | Electron mass                             | 9.10938356e-31         | `kg`             |
 | `m_n`  | Neutron mass                              | 1.674927471e-27        | `kg`             |
 | `m_p`  | Protron mass                              | 1.672621898e-27        | `kg`             |
@@ -151,7 +152,7 @@ List of Constants
 | `σ`    | Stefan-Boltzmann constant                 | 5.670367e-8            | `m^2`            |
 | `σ_e`  | Thomson cross section                     | 6.6524587158e-29       | `m^2`            |
 | `t_cc` | Kotov Cosmic Periodicity                  | 9600.061(2)            | `s`              |
-
+|`r_H0`  | Bare Hydrogen radius                      | 5.291772103e-11        | `m`              |
 
 ### Updated universal constants and particle properties ( thanks to Jean Maruani / Francis Sanchez)
 * [The_Dirac_Electron_From_Quantum_Chemistry_to_Holistic_Cosmology @ researchgate](https://www.researchgate.net/publication/287808070_The_Dirac_Electron_From_Quantum_Chemistry_to_Holistic_Cosmology)
