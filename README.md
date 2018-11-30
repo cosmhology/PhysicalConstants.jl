@@ -158,7 +158,7 @@ List of Constants
 
 | Symbol | Name                       | Formula                  | Dimension        | Value            | Unit             |
 | ------ | ----                       | -----                    | ----             | -----            | ----             |
-| `G`    | constant of gravitation    | F_gr=Gmm'/d^2            | M^-1L^3T^-2      | 6.6738e-11       | `m^3 kg^-1 s^-2` |
+| `G`    | constant of gravitation    | F_gr=Gmm'/d^2            | M^-1L^3T^-2      | 6.675453818e-11  | `m^3 kg^-1 s^-2` |
 | `k_e`  | Electrostatic constant     |     k_e.e^2 / ħc         | dimensionless    | 8.98e-9          | `F^-1.m`         |
 | `α`    | Fine structure constant    | a=α^-1  F_el=ħc/αd^2     | dimensionless    | (137.0359991)^-1 | `pure number`    |
 | `δ_e`  | Electron grav invariant    |                          | dimensionless    | 1.7517e-45       | `pure number`    |
