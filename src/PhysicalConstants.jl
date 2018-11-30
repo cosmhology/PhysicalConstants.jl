@@ -145,14 +145,14 @@ Return the physical constant as a `Quantity` with the floating type optionally s
 `FloatType`, `Float64` by default.
 
 ```jldoctest
-julia> using PhysicalConstants.CODATA2014
+julia> using PhysicalConstants.CODATA2018
 
 julia> G
-Newtonian constant of gravitation (G)
+Newtonian constant of gravitation (G')
 Value                         = 6.67408e-11 m^3 kg^-1 s^-2
 Standard uncertainty          = 3.1e-15 m^3 kg^-1 s^-2
 Relative standard uncertainty = 4.6e-5
-Reference                     = CODATA 2014
+Reference                     = CODATA 2018
 
 julia> float(G)
 6.67408e-11 m^3 kg^-1 s^-2
@@ -171,14 +171,14 @@ Return the physical constant as a `Quantity` with standard uncertainty.  The flo
 precision can be optionally specified with the `FloatType`, `Float64` by default.
 
 ```jldoctest
-julia> using PhysicalConstants.CODATA2014, Measurements
+julia> using PhysicalConstants.CODATA2018, Measurements
 
 julia> h
 Planck constant (h)
 Value                         = 6.62607004e-34 J s
 Standard uncertainty          = 8.1e-42 J s
 Relative standard uncertainty = 1.2e-8
-Reference                     = CODATA 2014
+Reference                     = CODATA 2018
 
 julia> measurement(h)
 6.62607004e-34 ± 8.1e-42 J s
@@ -189,6 +189,6 @@ julia> measurement(Float32, h)
 """
 measurement(::Constant)
 
-include("codata2014.jl")
+include("codata2018.jl")
 
 end # module
