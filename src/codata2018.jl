@@ -61,11 +61,11 @@ import PhysicalConstants: @constant, @derived_constant
           u"kg", 1.1e-38,
           BigFloat(11)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000_000),
           "CODATA 2018")
-@constant(m_h, "Hydrogen mass", 1.673_723_6e-27,
-          BigFloat(1673_723_6)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
-          u"kg", 2.1e-35,
-          BigFloat(21)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
-          "CODATA 2018")
+#@constant(m_h, "Hydrogen mass", 1.673_723_6e-27,
+#          BigFloat(1673_723_6)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
+#          u"kg", 2.1e-35,
+#          BigFloat(21)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
+#          "CODATA 2018")
 @constant(m_n, "Neutron mass", 1.674_927_471e-27,
           BigFloat(1674_927_471)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
           u"kg", 2.1e-35,
