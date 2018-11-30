@@ -184,4 +184,8 @@ The `PhysicalConstants.jl` package is licensed under the MIT "Expat" License.
 The original author is [Mosè Giordano](https://github.com/giordano/).
 
 New physical constants CODATA2018 added by LaGuer [LaGuer](https://github.com/laguer/PhysicalConstants.jl) for experimental purposes as proposed by [Dr Francis M. Sanchez](https://github.com/cosmhology/docs).
+
+Addendum
+--------
+New physical constants CODATA2018 introduce independent correlated results between T.Quinn experiments at BIPM and C.Bizouard at OBSPM.
  
