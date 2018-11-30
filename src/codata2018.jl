@@ -9,16 +9,19 @@ import PhysicalConstants: @constant, @derived_constant
           1.7e-12, BigFloat(17)/BigFloat(10_000_000_000_000), "CODATA 2018")
 @constant(a_0, "Bohr radius", 0.529_177_210_67e-10,
           BigFloat(52_917_721_067)/BigFloat(1_000_000_000_000_000_000_000), u"m",
-          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2014")
+          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
+@constant(r_H0, "Bare Hydrogen radius", 0.529_177_210_3e-10,5.291772103e-11
+          BigFloat(52_917_721_03)/BigFloat(1_000_000_000_000_000_000_000), u"m",
+          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
 @constant(atm, "Standard atmosphere", 101_325.0, BigFloat(101_325), u"Pa",
           0.0, BigFloat(0), "CODATA 2018")
 @constant(b, "Wien wavelength displacement law constant", 2.897_7729e-3,
           BigFloat(28_977_729)/BigFloat(10_000_000_000), u"m * K",
-          1.7e-9, BigFloat(17)/BigFloat(10_000_000_000), "CODATA 2014")
+          1.7e-9, BigFloat(17)/BigFloat(10_000_000_000), "CODATA 2018")
 @constant(c, "Speed of light in vacuum", 299_792_458.0, BigFloat(299_792_458.0), u"m/s",
           0.0, BigFloat(0), "CODATA 2018")
 @constant(µ_0, "Magnetic constant", 1.2566370614359173e-6, 4*big(pi)/BigFloat(10_000_000),
-          u"N * A^-2", 0.0, BigFloat(0.0), "CODATA 2014")
+          u"N * A^-2", 0.0, BigFloat(0.0), "CODATA 2018")
 @constant(ε_0, "Electric constant", 8.854187817620389e-12,
           inv(ustrip(big(µ_0)) * ustrip(big(c))^2), u"F * m^-1",
           0.0, BigFloat(0.0), "CODATA 2018")
@@ -87,7 +90,7 @@ import PhysicalConstants: @constant, @derived_constant
           "CODATA 2018")
 @constant(Z_0, "Characteristic impedance of vacuum", 376.73031346177066,
           BigFloat(1199_169_832)/BigFloat(10_000_000) * big(pi), u"Ω",
-          0, BigFloat(0.0), "CODATA 2014")
+          0, BigFloat(0.0), "CODATA 2018")
 
 # @constant(α, "Fine-structure constant", 7.297_352_5664e-3,
 #          BigFloat(72_973_525_664)/BigFloat(10_000_000_000_000), Unitful.NoUnits,
