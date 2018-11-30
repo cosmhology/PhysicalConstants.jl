@@ -106,12 +106,12 @@ julia> measurement(BigFloat, ħ) / (measurement(BigFloat, h) / (2 * big(pi)))
 List of Constants
 -----------------
 
-<!-- using PhysicalConstants.CODATA2014, Unitful -->
+<!-- using PhysicalConstants.CODATA2018, Unitful -->
 <!-- import PhysicalConstants: Constant, name -->
 <!-- symbol(::Constant{sym}) where sym = sym -->
 <!-- println("| Symbol | Name | Value | Unit |") -->
 <!-- println("| ------ | ---- | ----- | ---- |") -->
-<!-- for c in getfield.(Ref(CODATA2014), names(CODATA2014)) -->
+<!-- for c in getfield.(Ref(CODATA2018), names(CODATA2018)) -->
 <!--     if c isa Constant -->
 <!--         println("| `", symbol(c), "` | ", name(c), " | ", ustrip(float(c)), " | ", -->
 <!--                 unit(c) == Unitful.NoUnits ? "" : "`$(unit(c))`", " |") -->
@@ -132,6 +132,7 @@ List of Constants
 | `atm`  | Standard atmosphere                       | 101325.0               | `Pa`             |
 | `b`    | Wien wavelength displacement law constant | 0.0028977729           | `K m`            |
 | `c`    | Speed of light in vacuum                  | 2.99792458e8           | `m s^-1`         |
+| `C`    | Gravitational Velocity                    | 3.6993e44              | `m s^-1`         |
 | `e`    | Elementary charge                         | 1.6021766208e-19       | `C`              |
 | `g_n`  | Standard acceleration of gravitation      | 9.80665                | `m s^-2`         |
 | `h`    | Planck constant                           | 6.62607004e-34         | `J s`            |
