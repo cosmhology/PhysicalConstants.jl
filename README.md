@@ -180,7 +180,8 @@ List of Constants
 | `H`    |Hydrogen-electron mass ratio|    m_H/m_e               | dimensionless    | 1837.152645      | `m_e`            |
 | `p`    |Proton-electron mass ratio  |    m_p/m_e               | dimensionless    | 1836.152672      | `m_e`            |
 | `n`    |Neutron-electron mass ratio |    m_n/m_e               | dimensionless    | 1838.683659      | `m_e`            |
-| `m`    |Muon-electron mass ratio    |    m_u/m_e               | dimensionless    | 206.7682869      | `m_e`            |
+| `μ-`   |Muon-electron mass ratio    |    m_μ-/m_e              | dimensionless    | 206.7682869      | `m_e`            |
+| `τ-`   |Tau-electron mass ratio     |    m_τ-/m_e              | dimensionless    | 3477.441701      | `m_e`            |
 
 
 License
