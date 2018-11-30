@@ -76,7 +76,6 @@ import PhysicalConstants: @constant, @derived_constant
           u"kg", 2.1e-35,
           BigFloat(21)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
           "CODATA 2018")
-
 @constant(m_p, "Muon mass", 1.836_152_67e-28,
           BigFloat(1836_152_67)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
           u"kg", 2.1e-35,
@@ -112,10 +111,10 @@ import PhysicalConstants: @constant, @derived_constant
           BigFloat(1199_169_832)/BigFloat(10_000_000) * big(pi), u"Ω",
           0, BigFloat(0.0), "CODATA 2018")
 
+end
 # @constant(α, "Fine-structure constant", 7.297_352_5664e-3,
 #          BigFloat(72_973_525_664)/BigFloat(10_000_000_000_000), Unitful.NoUnits,
 #          1.7e-12, BigFloat(17)/BigFloat(10_000_000_000_000), "CODATA 2018")
-
 ## // TBC
 # @constant(R_U, "Hubble Universe Radius", 1.306_177_210_67e-10,
 #          BigFloat(1306_917_721_067)/BigFloat(1_000_000_000_000_000_000_000), u"m",
@@ -129,4 +128,3 @@ import PhysicalConstants: @constant, @derived_constant
 #          BigFloat(51)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
 #          "CODATA 2018")
 
-end
