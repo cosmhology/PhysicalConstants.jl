@@ -153,6 +153,10 @@ List of Constants
 | `σ_e`  | Thomson cross section                     | 6.6524587158e-29       | `m^2`            |
 | `t_cc` | Kotov Cosmic Periodicity                  | 9600.061(2)            | `s`              |
 |`r_H0`  | Bare Hydrogen radius                      | 5.291772103e-11        | `m`              |
+|  `θ'`  | Cosmic Temperature  CODATA2014            | 2.7255(6)              | `K`              |
+|  `θ`   | Cosmic Temperature   SANCHEZ              | 2.725820831            | `K`              |
+| `a_G`  | Sanchez Gravitational Coupling Constant   | 1.691936465e38         | `-`              |
+|  `f`   |Strong Nuclear Coupling Constant C.Bizouard| 8.434502892            | `-`              |
 
 ### Updated universal constants and particle properties ( thanks to Jean Maruani / Francis Sanchez)
 * [The_Dirac_Electron_From_Quantum_Chemistry_to_Holistic_Cosmology @ researchgate](https://www.researchgate.net/publication/287808070_The_Dirac_Electron_From_Quantum_Chemistry_to_Holistic_Cosmology)
