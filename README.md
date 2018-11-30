@@ -140,12 +140,12 @@ List of Constants
 | `k_B'` | Boltzmann constant                        | 1.38064852e-23         | `J K^-1`         |
 | `m_e`  | Electron mass                             | 9.10938356e-31         | `kg`             |
 | `m_n`  | Neutron mass                              | 1.674927471e-27        | `kg`             |
-| `m_p`  | Protron mass                              | 1.672621898e-27        | `kg`             |
+| `m_p`  | Proton mass                               | 1.672621898e-27        | `kg`             |
 | `m_u`  | Atomic mass constant                      | 1.66053904e-27         | `kg`             |
 | `m_H`  | Hydrogen mass constant                    | 1.6737236e-27          | `kg`             |
 | `ħ`    | Planck constant over 2pi                  | 1.0545718001391127e-34 | `J s`            |
-| `α`    | Fine-structure constant                   | 137.035999139          |                  |
-| `a`    | Sanchez Electric constant                 | 0.0072973525664        |                  |
+| `α`    | Fine-structure constant                   | 0.0072973525664        |                  |
+| `a`    | Sanchez Electric constant                 | 137.035999139          |                  |
 | `ε_0`  | Electric constant                         | 8.854187817620389e-12  | `F m^-1`         |
 | `μ_0`  | Magnetic constant                         | 1.2566370614359173e-6  | `N A^-2`         |
 | `μ_B`  | Bohr magneton                             | 9.274009994e-24        | `J T^-1`         |
