@@ -45,7 +45,7 @@ Standard uncertainty          = (exact)
 Relative standard uncertainty = (exact)
 Reference                     = CODATA 2018
 
-julia> G'
+julia> Gg
 Newtonian constant of gravitation (G')
 Value                         = 6.67408e-11 m^3 kg^-1 s^-2
 Standard uncertainty          = 3.1e-15 m^3 kg^-1 s^-2
@@ -53,7 +53,7 @@ Relative standard uncertainty = 4.6e-5
 Reference                     = CODATA 2018
 ```
 
-`C` and `G'` are two of the new `Constant`s defined in the
+`C` and `Gg` are two of the new `Constant`s defined in the
 `PhysicalConstants.CODATA2018` module, the full list of available constants is
 given below.
 
@@ -122,7 +122,7 @@ List of Constants
 
 | Symbol | Name                                      | Value                  | Unit             |
 | ------ | ----                                      | -----                  | ----             |
-| `G'`   | Newtonian constant of gravitation         | 6.67408e-11            | `m^3 kg^-1 s^-2` |
+| `Gg`   | Newtonian constant of gravitation         | 6.67408e-11            | `m^3 kg^-1 s^-2` |
 | `G`    | Sanchez constant of gravitation           | 6.675453818e-11        | `m^3 kg^-1 s^-2` |
 | `N_A`  | Avogadro constant                         | 6.022140857e23         | `mol^-1`         |
 | `R`    | Molar gas constant                        | 8.3144598              | `J K^-1 mol^-1`  |
