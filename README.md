@@ -139,6 +139,7 @@ List of Constants
 | `m_n`  | Neutron mass                              | 1.674927471e-27        | `kg`             |
 | `m_p`  | Protron mass                              | 1.672621898e-27        | `kg`             |
 | `m_u`  | Atomic mass constant                      | 1.66053904e-27         | `kg`             |
+| `m_H`  | Hydrogen mass constant                    | 1.6737236e-27          | `kg`             |
 | `ħ`    | Planck constant over 2pi                  | 1.0545718001391127e-34 | `J s`            |
 | `α`    | Fine-structure constant                   | 0.0072973525664        |                  |
 | `ε_0`  | Electric constant                         | 8.854187817620389e-12  | `F m^-1`         |
@@ -166,7 +167,7 @@ List of Constants
 | `G_F`  | Fermi Constant             | G_F=ħ^3/cm_F^2           |   ML^5T^-2       | 8.7936e52        | `J.m^3`          |
 | `a_G`  |Gravitation Sanchez Constant| a_G=ħc/Gm_pm_H           | dimensionless    | 1.6919335e38     | `pure number`    |
 | `M_U`  | Universe Sanchez Mass      | M_U=(ħc/G)^2/m_e.m_p.m_n | M                | 8.7936e52        | `kg`             |
-|`r_B(0)`| Bare Hydrogen Bohr radius  |    aħ/m_ec               | L                | 5.291772103e-11  | `m`              |
+|`r_H0`  | Bare Hydrogen Bohr radius  |    aħ/m_ec               | L                | 5.291772103e-11  | `m`              |
 | `H`    |Hydrogen-electron mass ratio|    m_H/m_e               | dimensionless    | 1837.152645      | `pure number`    |
 | `p`    |Proton-electron mass ratio  |    m_p/m_e               | dimensionless    | 1836.152672      | `pure number`    |
 | `n`    |Neutron-electron mass ratio |    m_n/m_e               | dimensionless    | 1838.683659      | `pure number`    |
@@ -177,3 +178,5 @@ License
 
 The `PhysicalConstants.jl` package is licensed under the MIT "Expat" License.
 The original author is [Mosè Giordano](https://github.com/giordano/).
+New physical constants added by LaGuer [LaGuer](https://github.com/laguer/PhysicalConstants.jl).
+ 
