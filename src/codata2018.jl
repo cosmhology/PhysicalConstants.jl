@@ -23,9 +23,9 @@ import PhysicalConstants: @constant, @derived_constant
 #@constant(θ, "Cosmic Temperature", 2.725820831,
 #          BigFloat(272_582_083.1), u"K",
 #          0.0, BigFloat(0), "CODATA 2018")
-@constant(t_cc, "Kotov Cosmic Periodicity", 9600.061,
-          BigFloat(960_006_1), u"s",
-          0.0, BigFloat(0), "CODATA 2018")
+#@constant(t_cc, "Kotov Cosmic Periodicity", 9600.061,
+#          BigFloat(960_006_1), u"s",
+#          0.0, BigFloat(0), "CODATA 2018")
 @constant(µ_0, "Magnetic constant", 1.2566370614359173e-6, 4*big(pi)/BigFloat(10_000_000),
           u"N * A^-2", 0.0, BigFloat(0.0), "CODATA 2018")
 @constant(ε_0, "Electric constant", 8.854187817620389e-12,
