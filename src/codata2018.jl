@@ -10,7 +10,7 @@ import PhysicalConstants: @constant, @derived_constant
 @constant(a_0, "Bohr radius", 0.529_177_210_67e-10,
           BigFloat(52_917_721_067)/BigFloat(1_000_000_000_000_000_000_000), u"m",
           1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
-@constant(r_H0, "Bare Hydrogen radius", 0.529_177_210_3e-10,
+@constant(r_H0, "Bare Hydrogen radius", 0.529_177_210_30e-10,
           BigFloat(52_917_721_03)/BigFloat(1_000_000_000_000_000_000_000), u"m",
           1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
 @constant(atm, "Standard atmosphere", 101_325.0, BigFloat(101_325), u"Pa",
