@@ -143,7 +143,8 @@ List of Constants
 | `m_p`  | Proton mass                               | 1.672621898e-27        | `kg`             |
 | `m_u`  | Atomic mass constant                      | 1.66053904e-27         | `kg`             |
 | `m_H`  | Hydrogen mass constant                    | 1.6737236e-27          | `kg`             |
-| `m_m`  | Muon mass constant                        | 1.83615267e-28         | `kg`             |
+| `m_μ-` | Muon mass constant                        | 1.83615267e-28         | `kg`             |
+| `m_τ-` | Tau mass constant                         | 3.16773502e-27         | `kg`             |
 | `ħ`    | Planck constant over 2pi                  | 1.0545718001391127e-34 | `J s`            |
 | `α`    | Fine-structure constant                   | 0.0072973525664        |                  |
 | `a`    | Sanchez Electric constant                 | 137.035999139          |                  |
