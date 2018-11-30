@@ -53,7 +53,7 @@ Relative standard uncertainty = 4.6e-5
 Reference                     = CODATA 2018
 ```
 
-`C` and `Gg` are two of the new `Constant`s defined in the
+`Cc` and `Gg` are two of the new `Constant`s defined in the
 `PhysicalConstants.CODATA2018` module, the full list of available constants is
 given below.
 
