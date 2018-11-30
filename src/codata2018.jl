@@ -61,11 +61,11 @@ import PhysicalConstants: @constant, @derived_constant
           u"kg", 1.1e-38,
           BigFloat(11)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000_000),
           "CODATA 2018")
-@constant(m_H, "Hydrogen mass", 1.673_723_6e-27,
-          BigFloat(1673_723_6)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
-          u"kg", 2.1e-35,
-          BigFloat(21)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
-          "CODATA 2018")
+#@constant(m_H, "Hydrogen mass", 1.673_723_6e-27,
+#          BigFloat(1673_723_6)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
+#          u"kg", 2.1e-35,
+#          BigFloat(21)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
+#          "CODATA 2018")
 @constant(m_n, "Neutron mass", 1.674_927_471e-27,
           BigFloat(1674_927_471)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
           u"kg", 2.1e-35,
@@ -76,12 +76,12 @@ import PhysicalConstants: @constant, @derived_constant
           u"kg", 2.1e-35,
           BigFloat(21)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
           "CODATA 2018")
-@constant(m_p, "Muon mass", 1.836_152_67e-28,
+@constant(m_m, "Muon mass", 1.836_152_67e-28,
           BigFloat(1836_152_67)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
           u"kg", 2.1e-35,
           BigFloat(21)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
           "CODATA 2018")
-@constant(m_p, "Tau mass", 3.167_735_502e-27,
+@constant(m_t, "Tau mass", 3.167_735_502e-27,
           BigFloat(3167_735_502)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
           u"kg", 2.1e-35,
           BigFloat(21)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
