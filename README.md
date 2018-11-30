@@ -24,7 +24,7 @@ installed with
 In a Julia session run the command
 
 ```julia
-pkg> add https://github.com/JuliaPhysics/PhysicalConstants.jl
+pkg> add https://github.com/laguer/PhysicalConstants.jl
 ```
 
 Usage
@@ -33,28 +33,28 @@ Usage
 You can load the package as usual with `using PhysicalConstants` but this module
 does not provide anything useful for the end-users.  You most probably want to
 directly load the submodule with the dataset you are interested in.  For
-example, for CODATA 2014 load `PhysicalConstants.CODATA2014`:
+example, for CODATA 2018 load `PhysicalConstants.CODATA2018`:
 
 ```julia
-julia> using PhysicalConstants.CODATA2014
+julia> using PhysicalConstants.CODATA2018
 
-julia> c
-Speed of light in vacuum (c)
-Value                         = 2.99792458e8 m s^-1
+julia> C
+Gravitational velocity in vacuum (C)
+Value                         = 3.6993e44 m s^-1 
 Standard uncertainty          = (exact)
 Relative standard uncertainty = (exact)
-Reference                     = CODATA 2014
+Reference                     = CODATA 2018
 
-julia> G
+julia> G'
 Newtonian constant of gravitation (G)
 Value                         = 6.67408e-11 m^3 kg^-1 s^-2
 Standard uncertainty          = 3.1e-15 m^3 kg^-1 s^-2
 Relative standard uncertainty = 4.6e-5
-Reference                     = CODATA 2014
+Reference                     = CODATA 2018
 ```
 
-`c` and `G` are two of the `Constant`s defined in the
-`PhysicalConstants.CODATA2014` module, the full list of available constants is
+`C` and `G'` are two of the `Constant`s defined in the
+`PhysicalConstants.CODATA2018` module, the full list of available constants is
 given below.
 
 You can turn a `Constant` into a `Quantity` object, with physical units, by
