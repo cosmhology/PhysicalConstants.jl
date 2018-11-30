@@ -10,7 +10,7 @@ import PhysicalConstants: @constant, @derived_constant
 @constant(a_0, "Bohr radius", 0.529_177_210_67e-10,
           BigFloat(52_917_721_067)/BigFloat(1_000_000_000_000_000_000_000), u"m",
           1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
-@constant(r_H0, "Bare Hydrogen radius", 0.529_177_210_3e-10,5.291772103e-11
+@constant(r_H0, "Bare Hydrogen radius", 0.529_177_210_3e-10,
           BigFloat(52_917_721_03)/BigFloat(1_000_000_000_000_000_000_000), u"m",
           1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
 @constant(atm, "Standard atmosphere", 101_325.0, BigFloat(101_325), u"Pa",
@@ -112,19 +112,4 @@ import PhysicalConstants: @constant, @derived_constant
           0, BigFloat(0.0), "CODATA 2018")
 
 end
-# @constant(α, "Fine-structure constant", 7.297_352_5664e-3,
-#          BigFloat(72_973_525_664)/BigFloat(10_000_000_000_000), Unitful.NoUnits,
-#          1.7e-12, BigFloat(17)/BigFloat(10_000_000_000_000), "CODATA 2018")
-## // TBC
-# @constant(R_U, "Hubble Universe Radius", 1.306_177_210_67e-10,
-#          BigFloat(1306_917_721_067)/BigFloat(1_000_000_000_000_000_000_000), u"m",
-#          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
-
-
-# @constant(M_U, "Sanchez Universe Mass", 8.7936e52,
-#          BigFloat(8793_600)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
-#          u"kg",
-#          0, 
-#          BigFloat(51)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
-#          "CODATA 2018")
 
