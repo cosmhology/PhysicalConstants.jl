@@ -147,14 +147,14 @@ Return the physical constant as a `Quantity` with the floating type optionally s
 ```jldoctest
 julia> using PhysicalConstants.CODATA2018
 
-julia> G
-Newtonian constant of gravitation (G')
+julia> Gg
+Newtonian constant of gravitation (Gg)
 Value                         = 6.67408e-11 m^3 kg^-1 s^-2
 Standard uncertainty          = 3.1e-15 m^3 kg^-1 s^-2
 Relative standard uncertainty = 4.6e-5
 Reference                     = CODATA 2018
 
-julia> float(G)
+julia> float(Gg)
 6.67408e-11 m^3 kg^-1 s^-2
 
 julia> float(Float32, G)
