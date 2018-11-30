@@ -65,8 +65,19 @@ import PhysicalConstants: @constant, @derived_constant
           u"kg", 2.1e-35,
           BigFloat(21)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
           "CODATA 2018")
-@constant(m_p, "Protron mass", 1.672_621_898e-27,
+@constant(m_p, "Proton mass", 1.672_621_898e-27,
           BigFloat(1672_621_898)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
+          u"kg", 2.1e-35,
+          BigFloat(21)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
+          "CODATA 2018")
+
+@constant(m_p, "Muon mass", 1.836_152_67e-28,
+          BigFloat(1836_152_67)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
+          u"kg", 2.1e-35,
+          BigFloat(21)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
+          "CODATA 2018")
+@constant(m_p, "Tau mass", 3.167_735_502e-27,
+          BigFloat(3167_735_502)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
           u"kg", 2.1e-35,
           BigFloat(21)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
           "CODATA 2018")
