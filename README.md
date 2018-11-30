@@ -143,13 +143,14 @@ List of Constants
 | `m_u`  | Atomic mass constant                      | 1.66053904e-27         | `kg`             |
 | `m_H`  | Hydrogen mass constant                    | 1.6737236e-27          | `kg`             |
 | `ħ`    | Planck constant over 2pi                  | 1.0545718001391127e-34 | `J s`            |
-| `α`    | Fine-structure constant                   | 0.0072973525664        |                  |
+| `α`    | Fine-structure constant                   | 137.035999139          |                  |
+| `a`    | Sanchez Electric constant                 | 0.0072973525664        |                  |
 | `ε_0`  | Electric constant                         | 8.854187817620389e-12  | `F m^-1`         |
 | `μ_0`  | Magnetic constant                         | 1.2566370614359173e-6  | `N A^-2`         |
 | `μ_B`  | Bohr magneton                             | 9.274009994e-24        | `J T^-1`         |
 | `σ`    | Stefan-Boltzmann constant                 | 5.670367e-8            | `m^2`            |
 | `σ_e`  | Thomson cross section                     | 6.6524587158e-29       | `m^2`            |
-
+| `t_cc` | Kotov Cosmic Periodicity                  | 9600.061(2)            | `s`              |
 
 
 ### Updated universal constants and particle properties ( thanks to Jean Maruani / Francis Sanchez)
@@ -158,7 +159,7 @@ List of Constants
 
 | Symbol | Name                       | Formula                  | Dimension        | Value            | Unit             |
 | ------ | ----                       | -----                    | ----             | -----            | ----             |
-| `G`    | constant of gravitation    | F_gr=Gmm'/d^2            | M^-1L^3T^-2      | 6.675453818e-11  | `m^3 kg^-1 s^-2` |
+| `G`    | Sz constant of gravitation | F_gr=Gmm'/d^2            | M^-1L^3T^-2      | 6.675453818e-11  | `m^3 kg^-1 s^-2` |
 | `k_e`  | Electrostatic constant     |     k_e.e^2 / ħc         | dimensionless    | 8.98e-9          | `F^-1.m`         |
 | `α`    | Fine structure constant    | a=α^-1  F_el=ħc/αd^2     | dimensionless    | (137.0359991)^-1 | `pure number`    |
 | `δ_e`  | Electron grav invariant    |                          | dimensionless    | 1.7517e-45       | `pure number`    |
