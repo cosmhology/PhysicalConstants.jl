@@ -143,6 +143,7 @@ List of Constants
 | `m_p`  | Proton mass                               | 1.672621898e-27        | `kg`             |
 | `m_u`  | Atomic mass constant                      | 1.66053904e-27         | `kg`             |
 | `m_H`  | Hydrogen mass constant                    | 1.6737236e-27          | `kg`             |
+| `m_m`  | Muon mass constant                        | 1.83615267e-28         | `kg`             |
 | `ħ`    | Planck constant over 2pi                  | 1.0545718001391127e-34 | `J s`            |
 | `α`    | Fine-structure constant                   | 0.0072973525664        |                  |
 | `a`    | Sanchez Electric constant                 | 137.035999139          |                  |
@@ -176,9 +177,10 @@ List of Constants
 | `a_G`  |Gravitation Sanchez Constant| a_G=ħc/Gm_pm_H           | dimensionless    | 1.6919335e38     | `pure number`    |
 | `M_U`  | Universe Sanchez Mass      | M_U=(ħc/G)^2/m_e.m_p.m_n | M                | 8.7936e52        | `kg`             |
 |`r_H0`  | Bare Hydrogen Bohr radius  |    aħ/m_ec               | L                | 5.291772103e-11  | `m`              |
-| `H`    |Hydrogen-electron mass ratio|    m_H/m_e               | dimensionless    | 1837.152645      | `pure number`    |
-| `p`    |Proton-electron mass ratio  |    m_p/m_e               | dimensionless    | 1836.152672      | `pure number`    |
-| `n`    |Neutron-electron mass ratio |    m_n/m_e               | dimensionless    | 1838.683659      | `pure number`    |
+| `H`    |Hydrogen-electron mass ratio|    m_H/m_e               | dimensionless    | 1837.152645      | `m_e`            |
+| `p`    |Proton-electron mass ratio  |    m_p/m_e               | dimensionless    | 1836.152672      | `m_e`            |
+| `n`    |Neutron-electron mass ratio |    m_n/m_e               | dimensionless    | 1838.683659      | `m_e`            |
+| `m`    |Muon-electron mass ratio    |    m_u/m_e               | dimensionless    | 206.7682869      | `m_e`            |
 
 
 License
