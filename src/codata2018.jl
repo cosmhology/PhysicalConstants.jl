@@ -20,7 +20,7 @@ import PhysicalConstants: @constant, @derived_constant
           1.7e-9, BigFloat(17)/BigFloat(10_000_000_000), "CODATA 2018")
 @constant(c, "Speed of light in vacuum", 299_792_458.0, BigFloat(299_792_458.0), u"m/s",
           0.0, BigFloat(0), "CODATA 2018")
-@constant(θ, "Cosmic Temperature", 2.725820831,
+@constant(t, "Cosmic Temperature", 2.725820831,
           BigFloat(272_582_083.1), u"K",
           0.0, BigFloat(0), "CODATA 2018")
 @constant(t_cc, "Kotov Cosmic Periodicity", 9600.061,
