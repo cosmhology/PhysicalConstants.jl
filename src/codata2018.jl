@@ -34,7 +34,7 @@ import PhysicalConstants: @constant, @derived_constant
 @constant(e, "Elementary charge", 1.602_176_6208e-19,
           big(16_021_766_208)/100_000_000_000_000_000_000_000_000_000,
           u"C", 9.8e-28, big(98)/100_000_000_000_000_000_000_000_000_000, "CODATA 2018")
-@constant(G', "Newtonian constant of gravitation", 6.674_08e-11,
+@constant(Gg, "Newtonian constant of gravitation", 6.674_08e-11,
           big(667_408)/big(10_000_000_000_000_000), u"m^3 * kg^-1 * s^-2",
           3.1e-15, big(31)/big(10_000_000_000_000_000), "CODATA 2018")
 @constant(G, "Sanchez constant of gravitation", 6.675_45e-11,
@@ -61,7 +61,7 @@ import PhysicalConstants: @constant, @derived_constant
           u"kg", 1.1e-38,
           BigFloat(11)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000_000),
           "CODATA 2018")
-@constant(m_H, "Hydrogen mass", 1.673_723_6e-27,
+@constant(m_h, "Hydrogen mass", 1.673_723_6e-27,
           BigFloat(1673_723_6)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
           u"kg", 2.1e-35,
           BigFloat(21)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
