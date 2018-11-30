@@ -38,15 +38,15 @@ example, for CODATA 2018 load `PhysicalConstants.CODATA2018`:
 ```julia
 julia> using PhysicalConstants.CODATA2018
 
-julia> C
-Gravitational velocity in vacuum (C)
+julia> Cc
+Gravitational velocity in vacuum (Cc)
 Value                         = 3.6993e44 m s^-1 
 Standard uncertainty          = (exact)
 Relative standard uncertainty = (exact)
 Reference                     = CODATA 2018
 
 julia> Gg
-Newtonian constant of gravitation (G')
+Newtonian constant of gravitation (Gg)
 Value                         = 6.67408e-11 m^3 kg^-1 s^-2
 Standard uncertainty          = 3.1e-15 m^3 kg^-1 s^-2
 Relative standard uncertainty = 4.6e-5
