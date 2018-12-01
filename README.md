@@ -33,13 +33,13 @@ Usage
 You can load the package as usual with `using PhysicalConstants` but this module
 does not provide anything useful for the end-users.  You most probably want to
 directly load the submodule with the dataset you are interested in.  For
-example, for CODATA 2018 load `PhysicalConstants.CODATA2018`:
+example, for CODATA 2019 load `PhysicalConstants.CODATA2019`:
 
 ```julia
-julia> using PhysicalConstants.CODATA2018
+julia> using PhysicalConstants.CODATA2019
 
-julia> Cc
-Gravitational velocity in vacuum (Cc)
+julia> C
+Gravitational velocity in vacuum (C)
 Value                         = 3.6993e44 m s^-1 
 Standard uncertainty          = (exact)
 Relative standard uncertainty = (exact)
@@ -53,8 +53,8 @@ Relative standard uncertainty = 4.6e-5
 Reference                     = CODATA 2018
 ```
 
-`Cc` and `Gg` are two of the new `Constant`s defined in the
-`PhysicalConstants.CODATA2018` module, the full list of available constants is
+`C` and `Gg` are two of the new `Constant`s defined in the
+`PhysicalConstants.CODATA2019` module, the full list of available constants is
 given below.
 
 You can turn a `Constant` into a `Quantity` object, with physical units, by
@@ -143,8 +143,8 @@ List of Constants
 | `m_p`  | Proton mass                               | 1.672621898e-27        | `kg`             |
 | `m_u`  | Atomic mass constant                      | 1.66053904e-27         | `kg`             |
 | `m_H`  | Hydrogen mass constant                    | 1.6737236e-27          | `kg`             |
-| `m_μ-` | Muon mass constant                        | 1.83615267e-28         | `kg`             |
-| `m_τ-` | Tau mass constant                         | 3.16773502e-27         | `kg`             |
+| `m_m`  | Muon mass constant  μ-                    | 1.83615267e-28         | `kg`             |
+| `m_t`  | Tau mass constant  τ-                     | 3.16773502e-27         | `kg`             |
 | `ħ`    | Planck constant over 2pi                  | 1.0545718001391127e-34 | `J s`            |
 | `α`    | Fine-structure constant                   | 0.0072973525664        |                  |
 | `a`    | Sanchez Electric constant                 | 137.035999139          |                  |
@@ -154,7 +154,7 @@ List of Constants
 | `σ`    | Stefan-Boltzmann constant                 | 5.670367e-8            | `m^2`            |
 | `σ_e`  | Thomson cross section                     | 6.6524587158e-29       | `m^2`            |
 | `t_cc` | Kotov Cosmic Periodicity                  | 9600.061(2)            | `s`              |
-|`r_H0`  | Bare Hydrogen radius                      | 5.291772103e-11        | `m`              |
+| `r_0`  | Bare Hydrogen radius                      | 5.291772103e-11        | `m`              |
 |  `θ'`  | Cosmic Temperature  CODATA2014            | 2.7255(6)              | `K`              |
 |  `θ`   | Cosmic Temperature   SANCHEZ              | 2.725820831            | `K`              |
 | `a_G`  | Sanchez Gravitational Coupling Constant   | 1.691936465e38         | `-`              |
@@ -177,12 +177,12 @@ List of Constants
 | `G_F`  | Fermi Constant             | G_F=ħ^3/cm_F^2           |   ML^5T^-2       | 8.7936e52        | `J.m^3`          |
 | `a_G`  |Gravitation Sanchez Constant| a_G=ħc/Gm_pm_H           | dimensionless    | 1.6919335e38     | `pure number`    |
 | `M_U`  | Universe Sanchez Mass      | M_U=(ħc/G)^2/m_e.m_p.m_n | M                | 8.7936e52        | `kg`             |
-|`r_H0`  | Bare Hydrogen Bohr radius  |    aħ/m_ec               | L                | 5.291772103e-11  | `m`              |
+| `r_0`  | Bare Hydrogen Bohr radius  |    aħ/m_ec               | L                | 5.291772103e-11  | `m`              |
 | `H`    |Hydrogen-electron mass ratio|    m_H/m_e               | dimensionless    | 1837.152645      | `m_e`            |
 | `p`    |Proton-electron mass ratio  |    m_p/m_e               | dimensionless    | 1836.152672      | `m_e`            |
 | `n`    |Neutron-electron mass ratio |    m_n/m_e               | dimensionless    | 1838.683659      | `m_e`            |
-| `μ-`   |Muon-electron mass ratio    |    m_μ-/m_e              | dimensionless    | 206.7682869      | `m_e`            |
-| `τ-`   |Tau-electron mass ratio     |    m_τ-/m_e              | dimensionless    | 3477.441701      | `m_e`            |
+| `μ-`   |Muon-electron mass ratio    |    m_m/m_e               | dimensionless    | 206.7682869      | `m_e`            |
+| `τ-`   |Tau-electron mass ratio     |    m_t/m_e               | dimensionless    | 3477.441701      | `m_e`            |
 
 
 License
