@@ -11,7 +11,7 @@ import PhysicalConstants: @constant, @derived_constant
 @constant(c, "Speed of light in vacuum", 299_792_458.0, BigFloat(299_792_458.0), u"m/s",
           0.0, BigFloat(0), "CODATA 2019")
 @constant(µ_0, "Magnetic constant", 1.2566370614359173e-6, 4*big(pi)/BigFloat(10_000_000),
-          u"N * A^-2", 0.0, BigFloat(0.0), "CODATA 2018")
+          u"N * A^-2", 0.0, BigFloat(0.0), "CODATA 2019")
 @constant(ε_0, "Electric constant", 8.854187817620389e-12,
           inv(ustrip(big(µ_0)) * ustrip(big(c))^2), u"F * m^-1",
           0.0, BigFloat(0.0), "CODATA 2019")
@@ -28,19 +28,19 @@ import PhysicalConstants: @constant, @derived_constant
           u"m * s^-2", 0, 0, "CODATA 2019")
 @constant(α, "Fine-structure constant", 7.297_352_5664e-3,
           BigFloat(72_973_525_664)/BigFloat(10_000_000_000_000), Unitful.NoUnits,
-          1.7e-12, BigFloat(17)/BigFloat(10_000_000_000_000), "CODATA 2018")
+          1.7e-12, BigFloat(17)/BigFloat(10_000_000_000_000), "CODATA 2019")
 @constant(a_0, "Bohr radius", 0.529_177_210_67e-10,
           BigFloat(52_917_721_067)/BigFloat(1_000_000_000_000_000_000_000), u"m",
-          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
+          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2019")
 @constant(atm, "Standard atmosphere", 101_325.0, BigFloat(101_325), u"Pa",
           0.0, BigFloat(0), "CODATA 2018")
 @constant(b, "Wien wavelength displacement law constant", 2.897_7729e-3,
           BigFloat(28_977_729)/BigFloat(10_000_000_000), u"m * K",
-          1.7e-9, BigFloat(17)/BigFloat(10_000_000_000), "CODATA 2018")
+          1.7e-9, BigFloat(17)/BigFloat(10_000_000_000), "CODATA 2019")
 @constant(h, "Planck constant", 6.626_070_040e-34,
           6_626_070_040/10_000_000_000_000_000_000_000_000_000_000_000_000_000_000,
           u"J*s", 8.1e-42, 81/10_000_000_000_000_000_000_000_000_000_000_000_000_000_000,
-          "CODATA 2018")
+          "CODATA 2019")
 @derived_constant(ħ, "Planck constant over 2pi", 1.0545718001391127e-34,
                   ustrip(big(h))/(2 * big(pi)), u"J*s", measurement(h)/2pi,
                   measurement(BigFloat, h)/(2 * big(pi)), "CODATA 2019")
@@ -81,24 +81,24 @@ import PhysicalConstants: @constant, @derived_constant
           "CODATA 2019")
 @constant(N_A, "Avogadro constant", 6.022_140_857e23,
           BigFloat(602_214_085_700_000_000_000_000), u"mol^-1",
-          7.4e15, BigFloat(7_400_000_000_000_000), "CODATA 2018")
+          7.4e15, BigFloat(7_400_000_000_000_000), "CODATA 2019")
 #@constant(r_0, "Bare Hydrogen radius", 0.529_177_210_30e-10,
 #          BigFloat(5291_772_103)/BigFloat(1_000_000_000_000_000_000_000), u"m",
-#          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
+#          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2019")
 @constant(R, "Molar gas constant", 8.314_4598, BigFloat(8_314_4598)/BigFloat(10_000_000),
-          u"J * mol^-1 * K^-1", 4.8e-6, BigFloat(48)/BigFloat(10_000_000), "CODATA 2018")
+          u"J * mol^-1 * K^-1", 4.8e-6, BigFloat(48)/BigFloat(10_000_000), "CODATA 2019")
 @constant(R_∞, "Rydberg constant", 10_973_731.568_508,
           BigFloat(10_973_731_568_508)/BigFloat(1_000_000), u"m^-1",
-          6.5e-5, BigFloat(65)/BigFloat(1_000_000), "CODATA 2018")
+          6.5e-5, BigFloat(65)/BigFloat(1_000_000), "CODATA 2019")
 @constant(σ, "Stefan-Boltzmann constant", 5.670_367e-8,
           BigFloat(5670_367)/BigFloat(100_000_000_000_000), u"m^2",
-          1.3e-13, BigFloat(13)/BigFloat(100_000_000_000_000), "CODATA 2018")
+          1.3e-13, BigFloat(13)/BigFloat(100_000_000_000_000), "CODATA 2019")
 @constant(σ_e, "Thomson cross section", 0.665_245_871_58e-28,
           BigFloat(66_524_587_158)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000_000),
           u"m^2", 9.1e-38,
           BigFloat(91)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000_000),
-          "CODATA 2018")
+          "CODATA 2019")
 @constant(Z_0, "Characteristic impedance of vacuum", 376.73031346177066,
           BigFloat(1199_169_832)/BigFloat(10_000_000) * big(pi), u"Ω",
-          0, BigFloat(0.0), "CODATA 2018")
+          0, BigFloat(0.0), "CODATA 2019")
 end
