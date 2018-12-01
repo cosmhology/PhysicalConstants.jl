@@ -8,9 +8,9 @@ import PhysicalConstants: @constant, @derived_constant
           0.0, BigFloat(0), "CODATA 2019")
 @constant(c, "Speed of light in vacuum", 299_792_458.0, BigFloat(299_792_458.0), u"m/s",
           0.0, BigFloat(0), "CODATA 2019")
-@constant(t, "Cosmic Temperature", 2.725820831,
-          BigFloat(272_582_083.1), u"K",
-          0.0, BigFloat(0), "CODATA 2019")
+#@constant(t, "Cosmic Temperature", 2.725820831,
+#          BigFloat(272_582_083.1), u"K",
+#          0.0, BigFloat(0), "CODATA 2019")
 @constant(ε_0, "Electric constant", 8.854187817620389e-12,
           inv(ustrip(big(µ_0)) * ustrip(big(c))^2), u"F * m^-1",
           0.0, BigFloat(0.0), "CODATA 2019")
