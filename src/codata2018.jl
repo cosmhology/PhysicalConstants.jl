@@ -22,9 +22,9 @@ import PhysicalConstants: @constant, @derived_constant
           0.0, BigFloat(0), "CODATA 2018")
 #@constant(v, "Gravitational velocity in vacuum", 3.699_3e44, BigFloat(369_93), u"m/s",
 #          0.0, BigFloat(0), "CODATA 2018")
-@constant(t, "Cosmic Temperature", 2.725820831,
-          BigFloat(272_582_083.1), u"K",
-          0.0, BigFloat(0), "CODATA 2018")
+#@constant(t, "Cosmic Temperature", 2.725820831,
+#          BigFloat(272_582_083.1), u"K",
+#          0.0, BigFloat(0), "CODATA 2018")
 #@constant(t_cc, "Kotov Cosmic Periodicity", 9600.061,
 #          BigFloat(960_006_1), u"s",
 #          0.0, BigFloat(0), "CODATA 2018")
