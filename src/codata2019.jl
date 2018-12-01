@@ -4,12 +4,12 @@ using PhysicalConstants, Unitful, Measurements
 
 import PhysicalConstants: @constant, @derived_constant
 
+@constant(t, "Cosmic Temperature", 2.725_820_831, BigFloat(2725_820_831), u"K",
+          0.0, BigFloat(0), "CODATA 2019")
 @constant(C, "Gravitational velocity in vacuum", 3.699_3e44, BigFloat(369_930_000_000_000_000_000_000_000_000_000_000_000_000_000), u"m/s",
           0.0, BigFloat(0), "CODATA 2019")
 @constant(c, "Speed of light in vacuum", 299_792_458.0, BigFloat(299_792_458.0), u"m/s",
           0.0, BigFloat(0), "CODATA 2019")
-#@constant(t, "Cosmic Temperature", 2.725820831, BigFloat(2725_820_831), u"K",
-#          0.0, BigFloat(0), "CODATA 2019")
 @constant(µ_0, "Magnetic constant", 1.2566370614359173e-6, 4*big(pi)/BigFloat(10_000_000),
           u"N * A^-2", 0.0, BigFloat(0.0), "CODATA 2018")
 @constant(ε_0, "Electric constant", 8.854187817620389e-12,
