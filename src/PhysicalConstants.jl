@@ -189,6 +189,6 @@ julia> measurement(Float32, h)
 """
 measurement(::Constant)
 
-include("codata.jl")
+include("codata2018.jl")
 
 end # module
