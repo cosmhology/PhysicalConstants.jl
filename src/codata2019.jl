@@ -80,4 +80,26 @@ import PhysicalConstants: @constant, @derived_constant
           u"kg", 2.0e-35,
           BigFloat(20)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
           "CODATA 2019")
+@constant(N_A, "Avogadro constant", 6.022_140_857e23,
+          BigFloat(602_214_085_700_000_000_000_000), u"mol^-1",
+          7.4e15, BigFloat(7_400_000_000_000_000), "CODATA 2018")
+@constant(r_0, "Bare Hydrogen radius", 0.529_177_210_30e-10,
+          BigFloat(52_917_721_03)/BigFloat(1_000_000_000_000_000_000_000), u"m",
+          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
+@constant(R, "Molar gas constant", 8.314_4598, BigFloat(8_314_4598)/BigFloat(10_000_000),
+          u"J * mol^-1 * K^-1", 4.8e-6, BigFloat(48)/BigFloat(10_000_000), "CODATA 2018")
+@constant(R_∞, "Rydberg constant", 10_973_731.568_508,
+          BigFloat(10_973_731_568_508)/BigFloat(1_000_000), u"m^-1",
+          6.5e-5, BigFloat(65)/BigFloat(1_000_000), "CODATA 2018")
+@constant(σ, "Stefan-Boltzmann constant", 5.670_367e-8,
+          BigFloat(5670_367)/BigFloat(100_000_000_000_000), u"m^2",
+          1.3e-13, BigFloat(13)/BigFloat(100_000_000_000_000), "CODATA 2018")
+@constant(σ_e, "Thomson cross section", 0.665_245_871_58e-28,
+          BigFloat(66_524_587_158)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000_000),
+          u"m^2", 9.1e-38,
+          BigFloat(91)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000_000),
+          "CODATA 2018")
+@constant(Z_0, "Characteristic impedance of vacuum", 376.73031346177066,
+          BigFloat(1199_169_832)/BigFloat(10_000_000) * big(pi), u"Ω",
+          0, BigFloat(0.0), "CODATA 2018")
 end
