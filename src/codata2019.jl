@@ -27,6 +27,17 @@ import PhysicalConstants: @constant, @derived_constant
           3.1e-15, big(31)/big(10_000_000_000_000_000), "CODATA 2019")
 @constant(g_n, "Standard acceleration of gravitation", 9.806_65, big(980_665)/big(100_000),
           u"m * s^-2", 0, 0, "CODATA 2019")
+@constant(α, "Fine-structure constant", 7.297_352_5664e-3,
+          BigFloat(72_973_525_664)/BigFloat(10_000_000_000_000), Unitful.NoUnits,
+          1.7e-12, BigFloat(17)/BigFloat(10_000_000_000_000), "CODATA 2018")
+@constant(a_0, "Bohr radius", 0.529_177_210_67e-10,
+          BigFloat(52_917_721_067)/BigFloat(1_000_000_000_000_000_000_000), u"m",
+          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
+@constant(atm, "Standard atmosphere", 101_325.0, BigFloat(101_325), u"Pa",
+          0.0, BigFloat(0), "CODATA 2018")
+@constant(b, "Wien wavelength displacement law constant", 2.897_7729e-3,
+          BigFloat(28_977_729)/BigFloat(10_000_000_000), u"m * K",
+          1.7e-9, BigFloat(17)/BigFloat(10_000_000_000), "CODATA 2018")
 @constant(h, "Planck constant", 6.626_070_040e-34,
           6_626_070_040/10_000_000_000_000_000_000_000_000_000_000_000_000_000_000,
           u"J*s", 8.1e-42, 81/10_000_000_000_000_000_000_000_000_000_000_000_000_000_000,
