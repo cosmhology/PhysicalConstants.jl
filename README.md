@@ -11,7 +11,7 @@ Introduction
 request.
 
 Constants are grouped into different submodules, so that the user can choose
-different datasets as needed.  Currently, only 2014 edition of
+different datasets as needed.  Currently, only 2019 edition of anticipated
 [CODATA](https://physics.nist.gov/cuu/Constants/) recommended values of the
 fundamental physical constants is provided.
 
@@ -43,14 +43,14 @@ Gravitational velocity in vacuum (C)
 Value                         = 3.6993e44 m s^-1 
 Standard uncertainty          = (exact)
 Relative standard uncertainty = (exact)
-Reference                     = CODATA 2018
+Reference                     = CODATA 2019
 
 julia> Gg
 Newtonian constant of gravitation (Gg)
 Value                         = 6.67408e-11 m^3 kg^-1 s^-2
 Standard uncertainty          = 3.1e-15 m^3 kg^-1 s^-2
 Relative standard uncertainty = 4.6e-5
-Reference                     = CODATA 2018
+Reference                     = CODATA 2019
 ```
 
 `C` and `Gg` are two of the new `Constant`s defined in the
@@ -106,19 +106,19 @@ julia> measurement(BigFloat, ħ) / (measurement(BigFloat, h) / (2 * big(pi)))
 List of Constants
 -----------------
 
-<!-- using PhysicalConstants.CODATA2018, Unitful -->
+<!-- using PhysicalConstants.CODATA2019, Unitful -->
 <!-- import PhysicalConstants: Constant, name -->
 <!-- symbol(::Constant{sym}) where sym = sym -->
 <!-- println("| Symbol | Name | Value | Unit |") -->
 <!-- println("| ------ | ---- | ----- | ---- |") -->
-<!-- for c in getfield.(Ref(CODATA2018), names(CODATA2018)) -->
+<!-- for c in getfield.(Ref(CODATA2019), names(CODATA2019)) -->
 <!--     if c isa Constant -->
 <!--         println("| `", symbol(c), "` | ", name(c), " | ", ustrip(float(c)), " | ", -->
 <!--                 unit(c) == Unitful.NoUnits ? "" : "`$(unit(c))`", " |") -->
 <!--     end -->
 <!-- end -->
 
-### CODATA 2018
+### CODATA 2019
 
 | Symbol | Name                                      | Value                  | Unit             |
 | ------ | ----                                      | -----                  | ----             |
