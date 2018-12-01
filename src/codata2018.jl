@@ -10,9 +10,6 @@ import PhysicalConstants: @constant, @derived_constant
 @constant(a_0, "Bohr radius", 0.529_177_210_67e-10,
           BigFloat(52_917_721_067)/BigFloat(1_000_000_000_000_000_000_000), u"m",
           1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
-#@constant(r_0, "Bare Hydrogen radius", 0.529_177_210_30e-10,
-#          BigFloat(52_917_721_03)/BigFloat(1_000_000_000_000_000_000_000), u"m",
-#          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
 @constant(atm, "Standard atmosphere", 101_325.0, BigFloat(101_325), u"Pa",
           0.0, BigFloat(0), "CODATA 2018")
 @constant(b, "Wien wavelength displacement law constant", 2.897_7729e-3,
@@ -20,7 +17,7 @@ import PhysicalConstants: @constant, @derived_constant
           1.7e-9, BigFloat(17)/BigFloat(10_000_000_000), "CODATA 2018")
 @constant(C, "Gravitational velocity in vacuum", 3.699_3e44, BigFloat(369_930_000_000_000_000_000_000_000_000_000_000_000_000_000), u"m/s",
           0.0, BigFloat(0), "CODATA 2018")
-@constant(c, "Speed of light in vacuum", 299_792_458.0, BigFloat(299_792_458.0), u"m/s",
+@constant(Cc, "Speed of light in vacuum", 299_792_458.0, BigFloat(299_792_458.0), u"m/s",
           0.0, BigFloat(0), "CODATA 2018")
 #@constant(t, "Cosmic Temperature", 2.725820831,
 #          BigFloat(272_582_083.1), u"K",
@@ -96,6 +93,9 @@ import PhysicalConstants: @constant, @derived_constant
 @constant(N_A, "Avogadro constant", 6.022_140_857e23,
           BigFloat(602_214_085_700_000_000_000_000), u"mol^-1",
           7.4e15, BigFloat(7_400_000_000_000_000), "CODATA 2018")
+@constant(r_0, "Bare Hydrogen radius", 0.529_177_210_30e-10,
+          BigFloat(52_917_721_03)/BigFloat(1_000_000_000_000_000_000_000), u"m",
+          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
 @constant(R, "Molar gas constant", 8.314_4598, BigFloat(8_314_4598)/BigFloat(10_000_000),
           u"J * mol^-1 * K^-1", 4.8e-6, BigFloat(48)/BigFloat(10_000_000), "CODATA 2018")
 @constant(R_∞, "Rydberg constant", 10_973_731.568_508,
