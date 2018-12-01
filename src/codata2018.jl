@@ -10,15 +10,15 @@ import PhysicalConstants: @constant, @derived_constant
 @constant(a_0, "Bohr radius", 0.529_177_210_67e-10,
           BigFloat(52_917_721_067)/BigFloat(1_000_000_000_000_000_000_000), u"m",
           1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
-@constant(r_0, "Bare Hydrogen radius", 0.529_177_210_30e-10,
-          BigFloat(52_917_721_03)/BigFloat(1_000_000_000_000_000_000_000), u"m",
-          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
+#@constant(r_0, "Bare Hydrogen radius", 0.529_177_210_30e-10,
+#          BigFloat(52_917_721_03)/BigFloat(1_000_000_000_000_000_000_000), u"m",
+#          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
 @constant(atm, "Standard atmosphere", 101_325.0, BigFloat(101_325), u"Pa",
           0.0, BigFloat(0), "CODATA 2018")
 @constant(b, "Wien wavelength displacement law constant", 2.897_7729e-3,
           BigFloat(28_977_729)/BigFloat(10_000_000_000), u"m * K",
           1.7e-9, BigFloat(17)/BigFloat(10_000_000_000), "CODATA 2018")
-@constant(Cc, "Gravitational velocity in vacuum", 3.699_3e44, BigFloat(369_93), u"m/s",
+@constant(C, "Gravitational velocity in vacuum", 3.699_3e44, BigFloat(369_930_000_000_000_000_000_000_000_000_000_000_000_000_000), u"m/s",
           0.0, BigFloat(0), "CODATA 2018")
 @constant(c, "Speed of light in vacuum", 299_792_458.0, BigFloat(299_792_458.0), u"m/s",
           0.0, BigFloat(0), "CODATA 2018")
@@ -63,11 +63,11 @@ import PhysicalConstants: @constant, @derived_constant
           u"kg", 1.1e-38,
           BigFloat(11)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000_000),
           "CODATA 2018")
-#@constant(m_h, "Hydrogen mass", 1.673_723_6e-27,
-#          BigFloat(1673_723_6)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
-#          u"kg", 2.1e-35,
-#          BigFloat(21)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
-#          "CODATA 2018")
+@constant(m_h, "Hydrogen mass", 1.673_723_600e-27,
+          BigFloat(1673_723_600)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
+          u"kg", 2.1e-35,
+          BigFloat(21)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
+          "CODATA 2018")
 @constant(m_n, "Neutron mass", 1.674_927_471e-27,
           BigFloat(1674_927_471)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000),
           u"kg", 2.1e-35,
