@@ -82,9 +82,9 @@ import PhysicalConstants: @constant, @derived_constant
 @constant(N_A, "Avogadro constant", 6.022_140_857e23,
           BigFloat(602_214_085_700_000_000_000_000), u"mol^-1",
           7.4e15, BigFloat(7_400_000_000_000_000), "CODATA 2018")
-@constant(r_0, "Bare Hydrogen radius", 0.529_177_210_30e-10,
-          BigFloat(5291_772_103)/BigFloat(1_000_000_000_000_000_000_000), u"m",
-          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
+#@constant(r_0, "Bare Hydrogen radius", 0.529_177_210_30e-10,
+#          BigFloat(5291_772_103)/BigFloat(1_000_000_000_000_000_000_000), u"m",
+#          1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2018")
 @constant(R, "Molar gas constant", 8.314_4598, BigFloat(8_314_4598)/BigFloat(10_000_000),
           u"J * mol^-1 * K^-1", 4.8e-6, BigFloat(48)/BigFloat(10_000_000), "CODATA 2018")
 @constant(R_∞, "Rydberg constant", 10_973_731.568_508,
