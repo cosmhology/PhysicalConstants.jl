@@ -31,7 +31,7 @@ import PhysicalConstants: @constant, @derived_constant
           1.7e-12, BigFloat(17)/BigFloat(10_000_000_000_000), "CODATA 2019")
 @derived_constant(a, "Sanchez electric constant", 1.370359991381e3,
                   ustrip((inv)(big(α))), Unitful.NoUnits, measurement(inv)α,
-                  measurement((BigFloat, inv)(big(α))), "CODATA 2019")
+                  measurement((inv)(BigFloat, (α))), "CODATA 2019")
 @constant(a_0, "Bohr radius", 0.529_177_210_67e-10,
           BigFloat(52_917_721_067)/BigFloat(1_000_000_000_000_000_000_000), u"m",
           1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2019")
