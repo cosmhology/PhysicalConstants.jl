@@ -4,7 +4,7 @@ using PhysicalConstants, Unitful, Measurements
 
 import PhysicalConstants: @constant, @derived_constant
 
-#@constant(Θ, "Cosmic Temperature", 2.725_820_831, BigFloat(2725_820_831), u"K^-1",
+#@constant(Θ, "CMB temperature (K)", 2.725_820_831, BigFloat(2725_820_831), u"K^-1",
 #          0.0, BigFloat(0.0), "CODATA 2019")
 @constant(C, "Gravitational velocity in interstellar vacuum", 3.699_3e44, BigFloat(369_930_000_000_000_000_000_000_000_000_000_000_000_000_000), u"m/s",
           0.0, BigFloat(0), "CODATA 2019")
