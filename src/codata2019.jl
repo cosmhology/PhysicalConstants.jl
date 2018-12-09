@@ -4,8 +4,8 @@ using PhysicalConstants, Unitful, Measurements
 
 import PhysicalConstants: @constant, @derived_constant
 
-#@constant(t, "Cosmic Temperature", 2.725_820_831, BigFloat(2725_820_831), u"K",
-#          0.0, BigFloat(0), "CODATA 2019")
+@constant(Θ, "Cosmic Temperature", 2.725_820_831, BigFloat(2725_820_831), u"K",
+          0.0, BigFloat(0), "CODATA 2019")
 @constant(C, "Gravitational velocity in vacuum", 3.699_3e44, BigFloat(369_930_000_000_000_000_000_000_000_000_000_000_000_000_000), u"m/s",
           0.0, BigFloat(0), "CODATA 2019")
 @constant(c, "Speed of light in vacuum", 299_792_458.0, BigFloat(299_792_458.0), u"m/s",
@@ -29,9 +29,9 @@ import PhysicalConstants: @constant, @derived_constant
 @constant(α, "Fine-structure constant", 7.297_352_5664e-3,
           BigFloat(72_973_525_664)/BigFloat(10_000_000_000_000), Unitful.NoUnits,
           1.7e-12, BigFloat(17)/BigFloat(10_000_000_000_000), "CODATA 2019")
-@derived_constant(a, "Sanchez electric constant", 1.370359991381e3,
-                  ustrip(big(α)^-1), Unitful.NoUnits, measurement(α^-1),
-                  measurement(BigFloat, α^-1), "CODATA 2019")
+#@derived_constant(a, "Sanchez electric constant", 1.370359991381e3,
+#                  ustrip(big(α)^-1), Unitful.NoUnits, measurement(α^-1),
+#                  measurement(BigFloat, α^-1), "CODATA 2019")
 @constant(a_0, "Bohr radius", 0.529_177_210_67e-10,
           BigFloat(52_917_721_067)/BigFloat(1_000_000_000_000_000_000_000), u"m",
           1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2019")
