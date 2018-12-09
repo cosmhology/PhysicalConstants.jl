@@ -29,6 +29,9 @@ import PhysicalConstants: @constant, @derived_constant
 @constant(α, "Fine-structure constant", 7.297_352_5664e-3,
           BigFloat(72_973_525_664)/BigFloat(10_000_000_000_000), Unitful.NoUnits,
           1.7e-12, BigFloat(17)/BigFloat(10_000_000_000_000), "CODATA 2019")
+@derived_constant(a, "Sanchez electric constant", 1.37035999139e11,
+                  ustrip(big(1))/(big(α)), Unitful.NoUnits, measurement(1)/α,
+                  measurement(BigFloat, 1)/(big(α)), "CODATA 2019")
 @constant(a_0, "Bohr radius", 0.529_177_210_67e-10,
           BigFloat(52_917_721_067)/BigFloat(1_000_000_000_000_000_000_000), u"m",
           1.2e-20, BigFloat(12)/BigFloat(1_000_000_000_000_000_000_000), "CODATA 2019")
