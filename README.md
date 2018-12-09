@@ -155,8 +155,8 @@ List of Constants
 | `σ_e`  | Thomson cross section                     | 6.6524587158e-29       | `m^2`            |
 | `t_cc` | Kotov Cosmic Periodicity                  | 9600.061(2)            | `s`              |
 | `r_0`  | Bare Hydrogen radius                      | 5.291772103e-11        | `m`              |
-|  `θ'`  | Cosmic Temperature  CODATA2014            | 2.7255(6)              | `K`              |
-|  `θ`   | Cosmic Temperature   SANCHEZ              | 2.725820831            | `K`              |
+|  `θ'`  | CMB Temperature in K  CODATA2014          | 2.7255(6)              | `K`              |
+|  `θ`   | CMB Temperature  in K  SANCHEZ            | 2.725820831            | `K`              |
 | `a_G`  | Sanchez Gravitational Coupling Constant   | 1.691936465e38         | `-`              |
 |  `f`   |Strong Nuclear Coupling Constant C.Bizouard| 8.434502892            | `-`              |
 
