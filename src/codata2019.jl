@@ -29,7 +29,7 @@ import PhysicalConstants: @constant, @derived_constant
 @constant(α, "Fine-structure constant", 7.297_352_5664e-3,
           BigFloat(72_973_525_664)/BigFloat(10_000_000_000_000), Unitful.NoUnits,
           1.7e-12, BigFloat(17)/BigFloat(10_000_000_000_000), "CODATA 2019")
-@constant(a, "Sanchez electric constant", 1.370359991381e3,
+@constant(a, "Sanchez electric constant", 1.370_359_991_381e3,
           inv(ustrip(big(α))), Unitful.NoUnits,
 #                  inv(ustrip(big(α))), Unitful.NoUnits, measurement(1/α),
 #                  measurement(BigFloat, 1/α), "CODATA 2019")
