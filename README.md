@@ -122,9 +122,9 @@ List of Constants
 
 | Symbol | Name                                      | Value                  | Unit             |
 | ------ | ----                                      | -----                  | ----             |
-| `--`   | unperturbed ground state hyperfine        |  9 192 631 770         | `Hz`             |
+|`ΔνC_s` | unperturbed ground state hyperfine        |  9 192 631 770         | `Hz`             |
 | `--`   | transition frequency of the cesium 133    | -----                  | ----             |
-| ------ | ----                                      | -----                  | ----             |
+| -----  | -----                                     | -----                  | ----             |
 | `Gg`   | Newtonian constant of gravitation         | 6.67408e-11            | `m^3 kg^-1 s^-2` |
 | `G`    | Sanchez constant of gravitation           | 6.675453818e-11        | `m^3 kg^-1 s^-2` |
 | `N_A`  | Avogadro constant                         | 6.022140857e23         | `mol^-1`         |
@@ -136,9 +136,9 @@ List of Constants
 | `b`    | Wien wavelength displacement law constant | 0.0028977729           | `K m`            |
 | `c`    | Speed of light in vacuum                  | 2.99792458e8           | `m s^-1`         |
 | `C`    | Gravitational Velocity                    | 3.6993e44              | `m s^-1`         |
-| `e`    | Elementary charge                         | 1.6021766208e-19       | `C`              |
+| `e`    | Elementary charge                         | 1.602176634e-19        | `C`              |
 | `g_n`  | Standard acceleration of gravitation      | 9.80665                | `m s^-2`         |
-| `h`    | Planck constant                           | 6.62607004e-34         | `J s`            |
+| `h`    | Planck constant                           | 6.62607015e-34         | `J s`            |
 | `k_B`  | Boltzman Energy-temperature Convers°      | 1.3806488e-23          | `J K^-1`         |
 | `k_B'` | Boltzmann constant                        | 1.38064852e-23         | `J K^-1`         |
 | `m_e`  | Electron mass                             | 9.10938356e-31         | `kg`             |
