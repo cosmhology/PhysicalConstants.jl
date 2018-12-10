@@ -11,7 +11,7 @@ Introduction
 request.
 
 Constants are grouped into different submodules, so that the user can choose
-different datasets as needed.  Currently, only 2019 edition of anticipated
+different datasets as needed.  Currently, only 2019 edition based on 26th CGPM and the anticipated
 [CODATA](https://physics.nist.gov/cuu/Constants/) recommended values of the
 fundamental physical constants is provided.
 
@@ -118,9 +118,12 @@ List of Constants
 <!--     end -->
 <!-- end -->
 
-### CODATA 2019
+### CODATA CGPM BIPM 2019
 
 | Symbol | Name                                      | Value                  | Unit             |
+| ------ | ----                                      | -----                  | ----             |
+| `--`   | unperturbed ground state hyperfine        |  9 192 631 770         | `Hz`             |
+| `--`   | transition frequency of the cesium 133    | -----                  | ----             |
 | ------ | ----                                      | -----                  | ----             |
 | `Gg`   | Newtonian constant of gravitation         | 6.67408e-11            | `m^3 kg^-1 s^-2` |
 | `G`    | Sanchez constant of gravitation           | 6.675453818e-11        | `m^3 kg^-1 s^-2` |
