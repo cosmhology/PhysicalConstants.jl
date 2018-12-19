@@ -1,11 +1,11 @@
-# PhysicalConstants.jl
+# PhysicalConstant.jl
 
 [![Build status](https://ci.appveyor.com/api/projects/status/8dkx5tiag5pap2jq/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/physicalconstants-jl/branch/master)
 
 Introduction
 ------------
 
-`PhysicalConstants.jl` provides common physical constants.  They are defined as
+`PhysicalConstant.jl` provides common physical constants.  They are defined as
 `Constant` objects, which can be turned into `Quantity` objects (from
 [`Unitful.jl`](https://github.com/ajkeller34/Unitful.jl) package) or
 `Measurement` objects (from
@@ -26,19 +26,19 @@ installed with
 In a Julia session run the command
 
 ```julia
-pkg> add https://github.com/laguer/PhysicalConstants.jl
+pkg> add https://github.com/laguer/PhysicalConstant.jl
 ```
 
 Usage
 -----
 
-You can load the package as usual with `using PhysicalConstants` but this module
+You can load the package as usual with `using PhysicalConstant` but this module
 does not provide anything useful for the end-users.  You most probably want to
 directly load the submodule with the dataset you are interested in.  For
 example, for CODATA 2019 load `PhysicalConstants.CODATA2019`:
 
 ```julia
-julia> using PhysicalConstants.CODATA2019
+julia> using PhysicalConstant.CODATA2019
 
 julia> C
 Gravitational velocity in vacuum (C)
@@ -56,7 +56,7 @@ Reference                     = CODATA 2019
 ```
 
 `C` and `Gg` are two of the new `Constant`s defined in the
-`PhysicalConstants.CODATA2019` module, the full list of available constants is
+`PhysicalConstant.CODATA2019` module, the full list of available constants is
 given below.
 
 You can turn a `Constant` into a `Quantity` object, with physical units, by
@@ -108,8 +108,8 @@ julia> measurement(BigFloat, ħ) / (measurement(BigFloat, h) / (2 * big(pi)))
 List of Constants
 -----------------
 
-<!-- using PhysicalConstants.CODATA2019, Unitful -->
-<!-- import PhysicalConstants: Constant, name -->
+<!-- using PhysicalConstant.CODATA2019, Unitful -->
+<!-- import PhysicalConstant: Constant, name -->
 <!-- symbol(::Constant{sym}) where sym = sym -->
 <!-- println("| Symbol | Name | Value | Unit |") -->
 <!-- println("| ------ | ---- | ----- | ---- |") -->
