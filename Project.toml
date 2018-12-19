@@ -1,0 +1,14 @@
+desc = "Physical Constant CODATA2019."
+keywords = ["physical", "constant", "codata"]
+name = "PhysicalConstant"
+repo = "https://github.com/LaGuer/PhysicalConstant.jl.git"
+author = "La Guer"
+license = "MIT"
+version = "v0.0.2"
+
+
+[targets]
+test = ["Test"]
+
+[compat]
+Julia = ">= v0.6"
