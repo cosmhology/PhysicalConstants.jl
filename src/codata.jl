@@ -1,6 +1,6 @@
 module CODATA
 
-using PhysicalConstants, Unitful, Measurements
+using PhysicalConstant, Unitful, Measurements
 
 import PhysicalConstants: @constant, @derived_constant
 
