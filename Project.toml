@@ -1,14 +1,18 @@
 desc = "Physical Constant CODATA2019."
 keywords = ["physical", "constant", "codata"]
 name = "PhysicalConstant"
+uuid = "988cf3cc-0386-11e9-15da-fbc5ac71f155
 repo = "https://github.com/LaGuer/PhysicalConstant.jl.git"
 author = "La Guer"
 license = "MIT"
 version = "v0.0.2"
 
+[compat]
+Julia = ">= v0.6"
+
+[deps]
+Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
 [targets]
 test = ["Test"]
-
-[compat]
-Julia = ">= v0.6"
