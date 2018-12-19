@@ -1,8 +1,8 @@
 module CODATA2019
 
-using PhysicalConstants, Unitful, Measurements
+using PhysicalConstant, Unitful, Measurements
 
-import PhysicalConstants: @constant, @derived_constant
+import PhysicalConstant: @constant, @derived_constant
 
 #@constant(Θ, "CMB temperature (K)", 2.725_820_831, BigFloat(2725_820_831), u"K^-1",
 #          0.0, BigFloat(0.0), "CODATA 2019")
