@@ -1,4 +1,4 @@
-module PhysicalConstants
+module PhysicalConstant
 
 using Measurements, Unitful
 
@@ -145,7 +145,7 @@ Return the physical constant as a `Quantity` with the floating type optionally s
 `FloatType`, `Float64` by default.
 
 ```jldoctest
-julia> using PhysicalConstants.CODATA2018
+julia> using PhysicalConstant.CODATA2018
 
 julia> Gg
 Newtonian constant of gravitation (Gg)
@@ -171,7 +171,7 @@ Return the physical constant as a `Quantity` with standard uncertainty.  The flo
 precision can be optionally specified with the `FloatType`, `Float64` by default.
 
 ```jldoctest
-julia> using PhysicalConstants.CODATA2018, Measurements
+julia> using PhysicalConstant.CODATA2018, Measurements
 
 julia> h
 Planck constant (h)
