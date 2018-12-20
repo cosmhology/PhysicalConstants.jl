@@ -225,14 +225,14 @@ Data aligned with 26th CGPM/BIPM in anticipation of NIST 2019 release.
 [pkg-0.6-img]: http://pkg.julialang.org/badges/PhysicalConstant_0.3.svg
 [pkg-0.6-url]: http://pkg.julialang.org/detail/PhysicalConstant.html
 
-[travis-img]: https://travis-ci.org/laguer/PhysicalConstant.jl.svg?branch=master
-[travis-url]: https://travis-ci.org/laguer/PhysicalConstant.jl
+[travis-img]: https://travis-ci.org/LaGuer/PhysicalConstant.jl.svg?branch=master
+[travis-url]: https://travis-ci.org/LaGuer/PhysicalConstant.jl
 
 [appvey-img]: https://ci.appveyor.com/api/projects/status/?svg=true
-[appvey-url]: https://ci.appveyor.com/project/laguer/PhysicalConstant-jl
+[appvey-url]: https://ci.appveyor.com/project/LaGuer/PhysicalConstant-jl
 
-[coveral-img]: https://coveralls.io/repos/github/laguer/PhysicalConstant.jl/badge.svg?branch=master
-[coveral-url]: https://coveralls.io/github/laguer/PhysicalConstant.jl?branch=master
+[coveral-img]: https://coveralls.io/repos/github/LaGuer/PhysicalConstant.jl/badge.svg?branch=master
+[coveral-url]: https://coveralls.io/github/LaGuer/PhysicalConstant.jl?branch=master
 
-[codecov-img]: https://codecov.io/gh/laguer/PhysicalConstant.jl/branch/master/graph/badge.svg
-[codecov-url]: https://codecov.io/gh/laguer/PhysicalConstant.jl
+[codecov-img]: https://codecov.io/gh/LaGuer/PhysicalConstant.jl/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/LaGuer/PhysicalConstant.jl
