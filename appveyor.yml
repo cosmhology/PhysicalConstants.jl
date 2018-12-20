@@ -12,6 +12,7 @@ platform:
 # (tests will run but not make your overall status red)
 matrix:
   allow_failures:
+  - julia_version: 1
   - julia_version: nightly
 
 branches:
@@ -30,7 +31,7 @@ install:
 
 build_script:
   - echo "%JL_BUILD_SCRIPT%"
-  - C:\julia\bin\julia -e "%JL_BUILD_SCRIPT%"
+  - C:\julia\bin\julia -e "%JL_BUILD_SCRIPT%; Pkg.build(\"https://github.com/LaGuer/PhysicalConstant\")"
 
 test_script:
   - echo "%JL_TEST_SCRIPT%"
