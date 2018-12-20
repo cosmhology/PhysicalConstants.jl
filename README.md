@@ -5,9 +5,6 @@
 | [![][docs-stable-img]][docs-stable-url] | [![][pkg-0.0.2-img]][pkg-0.0.2-url]       | [![Build Status][travis-img]][travis-url] | [![][coveral-img]][coveral-url] |
 | [![][docs-latest-img]][docs-latest-url] | [![][pkg-0.0.3-img]][pkg-0.0.3-url]       | [![Build Status][appvey-img]][appvey-url] | [![][codecov-img]][codecov-url] |
 
-[![Coverage Status](https://coveralls.io/repos/github/LaGuer/PhysicalConstant.jl/badge.svg?branch=master)](https://coveralls.io/github/LaGuer/PhysicalConstant.jl?branch=master)
-[![Build Status](https://api.travis-ci.org/LaGuer/PhysicalConstant.jl.svg)](https://travis-ci.org/LaGuer/PhysicalConstant.jl)
-
 Introduction
 ------------
 
