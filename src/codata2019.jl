@@ -4,10 +4,10 @@ using PhysicalConstant, Unitful, Measurements
 
 import PhysicalConstant: @constant, @derived_constant
 
-#@constant(Θ, "CMB temperature (K)", 2.725_820_831, BigFloat(2725_820_831), u"K^-1",
-#          0.0, BigFloat(0.0), "CODATA 2019")
-#@constant(C, "Gravitational velocity in interstellar vacuum", 3.699_3e44, BigFloat(369_930_000_000_000_000_000_000_000_000_000_000_000_000_000), u"m/s",
-#          0.0, BigFloat(0), "CODATA 2019")
+@constant(Θ, "CMB temperature (K)", 2.725_820_831, BigFloat(2725_820_831), u"K^-1",
+          0.0, BigFloat(0.0), "CODATA 2019")
+@constant(C, "Gravitational velocity in interstellar vacuum", 3.699_3e44, BigFloat(369_930_000_000_000_000_000_000_000_000_000_000_000_000_000), u"m/s",
+          0.0, BigFloat(0), "CODATA 2019")
 @constant(c, "Speed of light in vacuum", 299_792_458.0, BigFloat(299_792_458.0), u"m/s",
           0.0, BigFloat(0), "CODATA 2019")
 @constant(µ_0, "Magnetic constant", 1.2566370614359173e-6, 4*big(pi)/BigFloat(10_000_000),
@@ -15,9 +15,9 @@ import PhysicalConstant: @constant, @derived_constant
 @constant(ε_0, "Electric constant", 8.854187817620389e-12,
           inv(ustrip(big(µ_0)) * ustrip(big(c))^2), u"F * m^-1",
           0.0, BigFloat(0.0), "CODATA 2019")
-@constant(e, "Elementary charge", 1.602_176_6208e-19,
-          big(16_021_766_208)/100_000_000_000_000_000_000_000_000_000,
-          u"C", 9.8e-28, big(98)/100_000_000_000_000_000_000_000_000_000, "CODATA 2019")
+#@constant(e, "Elementary charge", 1.602_176_6208e-19,
+#          big(16_021_766_208)/100_000_000_000_000_000_000_000_000_000,
+#          u"C", 9.8e-28, big(98)/100_000_000_000_000_000_000_000_000_000, "CODATA 2019")
 @constant(Gg, "Newtonian constant of gravitation", 6.674_08e-11,
           big(667_408)/big(10_000_000_000_000_000), u"m^3 * kg^-1 * s^-2",
           3.1e-15, big(31)/big(10_000_000_000_000_000), "CODATA 2019")
