@@ -2,7 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/8dkx5tiag5pap2jq/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/physicalconstants-jl/branch/master)
 
-[![Build Status](https://travis-ci.org/LaGuer/physicalconstant.jl.svg?branch=master)](https://travis-ci.org/LaGuer/physicalconstant.jl)
+[![Build Status](https://api.travis-ci.org/LaGuer/physicalconstant.jl.svg)](https://travis-ci.org/LaGuer/physicalconstant.jl)
 
 Introduction
 ------------
