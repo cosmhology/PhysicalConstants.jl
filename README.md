@@ -110,6 +110,35 @@ julia> measurement(BigFloat, ħ)
 julia> measurement(BigFloat, ħ) / (measurement(BigFloat, h) / (2 * big(pi)))
 1.0 ± 0.0
 ```
+Inserting unicode (e.g. Greek letters)
+Julia supports the use of unicode characters such as α and β in your code
+
+Unicode characters can be typed quickly in Jupyter using the tab key
+
+Try creating a new code cell and typing \alpha, then hitting the tab key on your keyboard
+
+Shell Commands
+You can execute shell commands (system commands) in Jupyter by prepending a semicolon
+
+For example, ; ls will execute the UNIX style shell command ls, which — at least for UNIX style operating systems — lists the contents of the current working directory
+
+These shell commands are handled by your default system shell and hence are platform specific
+
+Package Manager
+You can enter the package manager by prepending a ]
+
+For example, ] st will give the status of installed packages in the current environment
+
+Sharing Notebooks
+Notebook files are just text files structured in JSON and typically end with .ipynb
+
+A notebook can easily be saved and shared between users — you just need to pass around the ipynb file
+
+To open an existing ipynb file, import it from the dashboard (the first browser page that opens when you start Jupyter notebook) and run the cells or edit as discussed above
+
+The Jupyter organization has a site for sharing notebooks called nbviewer which provides a static HTML representations of notebooks
+
+PhysicalConstant also hosts the PhysicalConstant Notes github repo, where you can upload and share your notebooks with other researchers and the PhysicalConstant community
 
 List of Constants
 -----------------
