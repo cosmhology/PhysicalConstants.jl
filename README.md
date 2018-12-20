@@ -6,7 +6,7 @@
 | [![][docs-latest-img]][docs-latest-url] | [![][pkg-0.3-img]][pkg-0.3-url]       | [![Build Status][appvey-img]][appvey-url] | [![][codecov-img]][codecov-url] |
 
 
-[![Build status](https://ci.appveyor.com/api/projects/status/8dkx5tiag5pap2jq/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/PhysicalConstants-jl/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/8dkx5tiag5pap2jq/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/physicalconstants-jl/branch/master)
 
 [![Build Status](https://api.travis-ci.org/LaGuer/PhysicalConstant.jl.svg)](https://travis-ci.org/LaGuer/PhysicalConstant.jl)
 
@@ -229,7 +229,7 @@ Data aligned with 26th CGPM/BIPM in anticipation of NIST 2019 release.
 [travis-url]: https://travis-ci.org/LaGuer/PhysicalConstant.jl
 
 [appvey-img]: https://ci.appveyor.com/api/projects/status/?svg=true
-[appvey-url]: https://ci.appveyor.com/project/LaGuer/PhysicalConstant-jl
+[appvey-url]: https://ci.appveyor.com/project/LaGuer/physicalconstant-jl
 
 [coveral-img]: https://coveralls.io/repos/github/LaGuer/PhysicalConstant.jl/badge.svg?branch=master
 [coveral-url]: https://coveralls.io/github/LaGuer/PhysicalConstant.jl?branch=master
