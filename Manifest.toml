@@ -1,0 +1,7 @@
+[[PhysicalConstant]]
+deps = ["Measurements", "Test", "Unitful"]
+git-tree-sha1 = ""
+repo-rev = "master"
+repo-url = "https://github.com/LaGuer/PhysicalConstant.jl"
+uuid = ""
+version = "0.0.3"
