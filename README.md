@@ -111,6 +111,8 @@ julia> measurement(BigFloat, ħ) / (measurement(BigFloat, h) / (2 * big(pi)))
 1.0 ± 0.0
 ```
 Inserting unicode (e.g. Greek letters)
+--------------------------------------
+
 Julia supports the use of unicode characters such as α and β in your code
 
 Unicode characters can be typed quickly in Jupyter using the tab key
@@ -118,6 +120,8 @@ Unicode characters can be typed quickly in Jupyter using the tab key
 Try creating a new code cell and typing \alpha, then hitting the tab key on your keyboard
 
 Shell Commands
+--------------
+
 You can execute shell commands (system commands) in Jupyter by prepending a semicolon
 
 For example, ; ls will execute the UNIX style shell command ls, which — at least for UNIX style operating systems — lists the contents of the current working directory
@@ -125,11 +129,15 @@ For example, ; ls will execute the UNIX style shell command ls, which — at lea
 These shell commands are handled by your default system shell and hence are platform specific
 
 Package Manager
+---------------
+
 You can enter the package manager by prepending a ]
 
 For example, ] st will give the status of installed packages in the current environment
 
-Sharing Notebooks
+Sharing Julia Notebooks
+-----------------------
+
 Notebook files are just text files structured in JSON and typically end with .ipynb
 
 A notebook can easily be saved and shared between users — you just need to pass around the ipynb file
