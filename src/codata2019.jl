@@ -52,11 +52,11 @@ import PhysicalConstant: @constant, @derived_constant
                   measurement(BigFloat, h)/(2 * big(pi)), "CODATA 2019")
 @constant(k_B, "Boltzmann constant", 1.380_648_52e-23,
           BigFloat(138_064_852)/BigFloat(10_000_000_000_000_000_000_000_000_000_000), u"J * K^-1",
-          7.9e-30, BigFloat(79)/BigFloat(10_000_000_000_000_000_000_000_000_000_000), "CODATA 2018")
+          7.9e-30, BigFloat(79)/BigFloat(10_000_000_000_000_000_000_000_000_000_000), "CODATA 2019")
 @constant(µ_B, "Bohr magneton", 927.400_9994e-26,
           BigFloat(9274_009_994)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000),
           u"J * T^-1", 5.7e-32,
-          BigFloat(57)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000), "CODATA 2018")
+          BigFloat(57)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000), "CODATA 2019")
 @constant(m_e, "Electron mass", 9.109_383_56e-31,
           BigFloat(910_938_356)/BigFloat(1000_000_000_000_000_000_000_000_000_000_000_000_000),
           u"kg", 1.1e-38,
