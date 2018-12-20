@@ -202,7 +202,7 @@ License
 -------
 
 The `PhysicalConstants.jl` package is licensed under the MIT "Expat" License.
-The original author is [Mosè Giordano](https://github.com/giordano/).
+The original author is [Mosè Giordano](https://github.com/giordano/) in [arxiv](http://arxiv.org/abs/1610.08716).
 
 New physical constants CODATA2019 added by LaGuer [LaGuer](https://github.com/laguer/PhysicalConstants.jl) for experimental purposes as proposed by [Dr Francis M. Sanchez](https://github.com/cosmhology/docs).
 
@@ -210,3 +210,29 @@ Addendum
 --------
 New physical constants CODATA2019 introduce independent correlated results between T.Quinn experiments at BIPM and C.Bizouard at OBSPM.
 Data aligned with 26th CGPM/BIPM in anticipation of NIST 2019 release. 
+
+
+[docs-latest-img]: https://img.shields.io/badge/docs-latest-blue.svg
+[docs-latest-url]: https://laguer.github.io/PhysicalConstant.jl/latest/
+
+[docs-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
+[docs-stable-url]: https://laguer.github.io/PhysicalConstant.jl/stable/
+
+[pkgeval-link]: http://pkg.julialang.org/?pkg=PhysicalConstant
+
+[pkg-0.5-img]: http://pkg.julialang.org/badges/PhysicalConstant_0.2.svg
+[pkg-0.5-url]: http://pkg.julialang.org/detail/PhysicalConstant.html
+[pkg-0.6-img]: http://pkg.julialang.org/badges/PhysicalConstant_0.3.svg
+[pkg-0.6-url]: http://pkg.julialang.org/detail/PhysicalConstant.html
+
+[travis-img]: https://travis-ci.org/laguer/PhysicalConstant.jl.svg?branch=master
+[travis-url]: https://travis-ci.org/laguer/PhysicalConstant.jl
+
+[appvey-img]: https://ci.appveyor.com/api/projects/status/?svg=true
+[appvey-url]: https://ci.appveyor.com/project/laguer/PhysicalConstant-jl
+
+[coveral-img]: https://coveralls.io/repos/github/laguer/PhysicalConstant.jl/badge.svg?branch=master
+[coveral-url]: https://coveralls.io/github/laguer/PhysicalConstant.jl?branch=master
+
+[codecov-img]: https://codecov.io/gh/laguer/PhysicalConstant.jl/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/laguer/PhysicalConstant.jl
