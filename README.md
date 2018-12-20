@@ -220,16 +220,16 @@ Data aligned with 26th CGPM/BIPM in anticipation of NIST 2019 release.
 
 [pkgeval-link]: http://pkg.julialang.org/?pkg=PhysicalConstant
 
-[pkg-0.5-img]: http://pkg.julialang.org/badges/PhysicalConstant_0.2.svg
+[pkg-0.5-img]: http://pkg.julialang.org/badges/PhysicalConstant_0.0.2.svg
 [pkg-0.5-url]: http://pkg.julialang.org/detail/PhysicalConstant.html
-[pkg-0.6-img]: http://pkg.julialang.org/badges/PhysicalConstant_0.3.svg
+[pkg-0.6-img]: http://pkg.julialang.org/badges/PhysicalConstant_0.0.3.svg
 [pkg-0.6-url]: http://pkg.julialang.org/detail/PhysicalConstant.html
 
 [travis-img]: https://travis-ci.org/LaGuer/PhysicalConstant.jl.svg?branch=master
 [travis-url]: https://travis-ci.org/LaGuer/PhysicalConstant.jl
 
 [appvey-img]: https://ci.appveyor.com/api/projects/status/?svg=true
-[appvey-url]: https://ci.appveyor.com/project/LaGuer/physicalconstant-jl
+[appvey-url]: https://ci.appveyor.com/project/LaGuer/physicalconstants-jl
 
 [coveral-img]: https://coveralls.io/repos/github/LaGuer/PhysicalConstant.jl/badge.svg?branch=master
 [coveral-url]: https://coveralls.io/github/LaGuer/PhysicalConstant.jl?branch=master
