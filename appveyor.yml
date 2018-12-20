@@ -31,11 +31,13 @@ install:
 
 build_script:
   - echo "%JL_BUILD_SCRIPT%"
-  - C:\julia\bin\julia -e "%JL_BUILD_SCRIPT%; Pkg.build(\"https://github.com/LaGuer/PhysicalConstant\")"
+  - C:\julia\bin\julia -e "%JL_BUILD_SCRIPT%; Pkg.build(\"https://github.com/LaGuer/PhysicalConstant.jl/\")"
 
 test_script:
   - echo "%JL_TEST_SCRIPT%"
   - C:\julia\bin\julia -e "%JL_TEST_SCRIPT%"
+  - C:\projects\julia\bin\julia -e "versioninfo();
+      Pkg.rm(\"PhysicalConstant\")"
 
 # # Uncomment to support code coverage upload. Should only be enabled for packages
 # # which would have coverage gaps without running on Windows
