@@ -6,8 +6,8 @@ import PhysicalConstant: @constant, @derived_constant
 
 #@constant(Θ, "CMB temperature (K)", 2.725_820_831, BigFloat(2725_820_831), u"K^-1",
 #          0.0, BigFloat(0.0), "CODATA 2019")
-@constant(C, "Gravitational velocity in interstellar vacuum", 3.699_3e44, BigFloat(369_930_000_000_000_000_000_000_000_000_000_000_000_000_000), u"m/s",
-          0.0, BigFloat(0), "CODATA 2019")
+#@constant(C, "Gravitational velocity in interstellar vacuum", 3.699_3e44, BigFloat(369_930_000_000_000_000_000_000_000_000_000_000_000_000_000), u"m/s",
+#          0.0, BigFloat(0), "CODATA 2019")
 @constant(c, "Speed of light in vacuum", 299_792_458.0, BigFloat(299_792_458.0), u"m/s",
           0.0, BigFloat(0), "CODATA 2019")
 @constant(µ_0, "Magnetic constant", 1.2566370614359173e-6, 4*big(pi)/BigFloat(10_000_000),
