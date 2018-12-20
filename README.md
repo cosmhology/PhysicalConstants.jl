@@ -248,17 +248,17 @@ Data aligned with 26th CGPM/BIPM in anticipation of NIST 2019 release.
 
 
 [docs-latest-img]: https://img.shields.io/badge/docs-latest-blue.svg
-[docs-latest-url]: https://laguer.github.io/PhysicalConstant.jl/latest/
+[docs-latest-url]: https://laguer.github.io/PhysicalConstant.jl/releases/tag/v0.03
 
 [docs-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
-[docs-stable-url]: https://laguer.github.io/PhysicalConstant.jl/stable/
+[docs-stable-url]: https://laguer.github.io/PhysicalConstant.jl/releases/tag/v0.02
 
 [pkgeval-link]: http://pkg.julialang.org/?pkg=PhysicalConstant
 
-[pkg-0.5-img]: http://pkg.julialang.org/badges/PhysicalConstant_0.0.2.svg
-[pkg-0.5-url]: http://pkg.julialang.org/detail/PhysicalConstant.html
-[pkg-0.6-img]: http://pkg.julialang.org/badges/PhysicalConstant_0.0.3.svg
-[pkg-0.6-url]: http://pkg.julialang.org/detail/PhysicalConstant.html
+[pkg-0.2-img]: http://pkg.julialang.org/badges/PhysicalConstant_0.02.svg
+[pkg-0.2-url]: http://pkg.julialang.org/detail/PhysicalConstant.html
+[pkg-0.3-img]: http://pkg.julialang.org/badges/PhysicalConstant_0.03.svg
+[pkg-0.3-url]: http://pkg.julialang.org/detail/PhysicalConstant.html
 
 [travis-img]: https://travis-ci.org/LaGuer/PhysicalConstant.jl.svg?branch=master
 [travis-url]: https://travis-ci.org/LaGuer/PhysicalConstant.jl
