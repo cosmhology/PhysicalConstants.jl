@@ -1,8 +1,8 @@
-desc = "Physical Constant CODATA2019."
-keywords = ["physical", "constant", "codata"]
+#desc = "Physical Constant CODATA2019."
+#keywords = ["physical", "constant", "codata"]
 name = "PhysicalConstant"
 uuid = "988cf3cc-0386-11e9-15da-fbc5ac71f155"
-repo = "https://github.com/LaGuer/PhysicalConstant.jl.git"
+#repo = "https://github.com/LaGuer/PhysicalConstant.jl.git"
 author = "La Guer"
 license = "MIT"
 version = "v0.0.3"
