@@ -58,8 +58,8 @@ macro constant(sym, name, val, def, unit, unc, bigunc, reference)
         end
         Measurements.measurement(::Constant{$qsym}) = measurement(Float64, $esym)
 
-        PhysicalConstants.name(::Constant{$qsym})    = $name
-        PhysicalConstants.ref(::Constant{$qsym})     = $reference
+        PhysicalConstant.name(::Constant{$qsym})    = $name
+        PhysicalConstant.ref(::Constant{$qsym})     = $reference
         Unitful.unit(::Constant{$qsym})      = $unit
         Unitful.dimension(::Constant{$qsym}) = Unitful.dimension($unit)
 
@@ -105,8 +105,8 @@ macro derived_constant(sym, name, val, def, unit, measure64, measurebig, referen
             convert(Measurement{FT}, ustrip(measurement(x))) * $eunit
         Measurements.measurement(::Constant{$qsym}) = measurement(Float64, $esym)
 
-        PhysicalConstants.name(::Constant{$qsym})    = $name
-        PhysicalConstants.ref(::Constant{$qsym})     = $reference
+        PhysicalConstant.name(::Constant{$qsym})    = $name
+        PhysicalConstant.ref(::Constant{$qsym})     = $reference
         Unitful.unit(::Constant{$qsym})      = $unit
         Unitful.dimension(::Constant{$qsym}) = Unitful.dimension($unit)
 
