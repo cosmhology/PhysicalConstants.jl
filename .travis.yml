@@ -15,7 +15,7 @@ git:
 notifications:
   email: false
 before_install:
-  - cd ..
+#  - cd ..
   - export JL_PKG=PhysicalConstant
 #  - ls
 #  - cd MathPhysicalConstants.jl
