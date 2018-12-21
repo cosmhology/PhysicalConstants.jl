@@ -1,9 +1,9 @@
-using Documenter, Measurements
+using Documenter, Measurements, PhysicalConstant
 
 makedocs(
-    modules = [Measurements],
+    modules = [PhysicalConstant],
     format = :html,
-    sitename = "Measurements",
+    sitename = "PhysicalConstant",
     pages    = Any[
         "Introduction" => "index.md",
         "Installation" => "installation.md",
@@ -16,7 +16,7 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/JuliaPhysics/Measurements.jl.git",
+    repo = "github.com/LaGuer/PhysicalConstant.jl.git",
     target = "build",
     deps = nothing,
     make = nothing,
