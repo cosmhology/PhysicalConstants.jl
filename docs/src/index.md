@@ -1,4 +1,4 @@
-# Special Functions
+# PhysicalConstant
 
 This package provides a comprehensive collection of Physical Constant based on the
 [Measurements](https://github.com/JuliaPhysics/Measurements) ...
