@@ -34,7 +34,8 @@ build_script:
   - C:\julia\bin\julia -e "%JL_BUILD_SCRIPT%;
   - C:\julia\bin\julia using Pkg;  Pkg.build(\"Unitful\")"
   - C:\julia\bin\julia using Pkg;  Pkg.build(\"Measurements\")"
-  - C:\julia\bin\julia -e Pkg.build(\"https://github.com/LaGuer/PhysicalConstant.jl/\")"
+  - C:\julia\bin\julia using Pkg;  Pkg.build(\"PhysicalConstant\")"
+#  - C:\julia\bin\julia -e Pkg.build(\"https://github.com/LaGuer/PhysicalConstant.jl/\")"
   
 
 test_script:
