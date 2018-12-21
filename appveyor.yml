@@ -32,6 +32,7 @@ install:
 build_script:
   - echo "%JL_BUILD_SCRIPT%"
   - C:\julia\bin\julia -e "%JL_BUILD_SCRIPT%;
+  - C:\julia\bin\julia using Pkg;  Pkg.build(\"Test\")"
   - C:\julia\bin\julia using Pkg;  Pkg.build(\"Unitful\")"
   - C:\julia\bin\julia using Pkg;  Pkg.build(\"Measurements\")"
   - C:\julia\bin\julia using Pkg;  Pkg.build(\"PhysicalConstant\")"
