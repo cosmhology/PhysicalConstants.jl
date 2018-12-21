@@ -2,8 +2,10 @@ using Documenter, Measurements, PhysicalConstant
 
 makedocs(
     modules = [PhysicalConstant],
+    clean = false,
     format = :html,
-    sitename = "PhysicalConstant",
+    sitename = "PhysicalConstant.jl",
+    authors = "La Guer.",
     pages    = Any[
         "Introduction" => "index.md",
         "Installation" => "installation.md",
@@ -16,6 +18,7 @@ makedocs(
 )
 
 deploydocs(
+    julia = "nightly",
     repo = "github.com/LaGuer/PhysicalConstant.jl.git",
     target = "build",
     deps = nothing,
