@@ -1,7 +1,14 @@
-using PhysicalConstants, Measurements, Unitful
-using Test
+# using Base.Test
+#include("../src/RunTests.jl")
 
-using PhysicalConstants.CODATA2014
+using PhysicalConstant, Measurements, Unitful
+if VERSION < v"0.7.0-DEV.2005"
+    using Base.Test
+else
+    using Test
+end
+
+using PhysicalConstant.CODATA2019
 
 @testset begin
     @test ustrip(big(h)) == big"6.626070040e-34"

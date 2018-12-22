@@ -1,4 +1,4 @@
-module PhysicalConstants
+module PhysicalConstant
 
 using Measurements, Unitful
 
@@ -58,8 +58,8 @@ macro constant(sym, name, val, def, unit, unc, bigunc, reference)
         end
         Measurements.measurement(::Constant{$qsym}) = measurement(Float64, $esym)
 
-        PhysicalConstants.name(::Constant{$qsym})    = $name
-        PhysicalConstants.ref(::Constant{$qsym})     = $reference
+        PhysicalConstant.name(::Constant{$qsym})    = $name
+        PhysicalConstant.ref(::Constant{$qsym})     = $reference
         Unitful.unit(::Constant{$qsym})      = $unit
         Unitful.dimension(::Constant{$qsym}) = Unitful.dimension($unit)
 
@@ -105,8 +105,8 @@ macro derived_constant(sym, name, val, def, unit, measure64, measurebig, referen
             convert(Measurement{FT}, ustrip(measurement(x))) * $eunit
         Measurements.measurement(::Constant{$qsym}) = measurement(Float64, $esym)
 
-        PhysicalConstants.name(::Constant{$qsym})    = $name
-        PhysicalConstants.ref(::Constant{$qsym})     = $reference
+        PhysicalConstant.name(::Constant{$qsym})    = $name
+        PhysicalConstant.ref(::Constant{$qsym})     = $reference
         Unitful.unit(::Constant{$qsym})      = $unit
         Unitful.dimension(::Constant{$qsym}) = Unitful.dimension($unit)
 
@@ -145,16 +145,16 @@ Return the physical constant as a `Quantity` with the floating type optionally s
 `FloatType`, `Float64` by default.
 
 ```jldoctest
-julia> using PhysicalConstants.CODATA2014
+julia> using PhysicalConstant.CODATA2019
 
-julia> G
-Newtonian constant of gravitation (G)
+julia> Gg
+Newtonian constant of gravitation (Gg)
 Value                         = 6.67408e-11 m^3 kg^-1 s^-2
 Standard uncertainty          = 3.1e-15 m^3 kg^-1 s^-2
 Relative standard uncertainty = 4.6e-5
-Reference                     = CODATA 2014
+Reference                     = CODATA 2019
 
-julia> float(G)
+julia> float(Gg)
 6.67408e-11 m^3 kg^-1 s^-2
 
 julia> float(Float32, G)
@@ -171,14 +171,14 @@ Return the physical constant as a `Quantity` with standard uncertainty.  The flo
 precision can be optionally specified with the `FloatType`, `Float64` by default.
 
 ```jldoctest
-julia> using PhysicalConstants.CODATA2014, Measurements
+julia> using PhysicalConstant.CODATA2019, Measurements
 
 julia> h
 Planck constant (h)
 Value                         = 6.62607004e-34 J s
 Standard uncertainty          = 8.1e-42 J s
 Relative standard uncertainty = 1.2e-8
-Reference                     = CODATA 2014
+Reference                     = CODATA 2019
 
 julia> measurement(h)
 6.62607004e-34 ± 8.1e-42 J s
@@ -189,6 +189,6 @@ julia> measurement(Float32, h)
 """
 measurement(::Constant)
 
-include("codata2014.jl")
+include("codata2019.jl")
 
 end # module

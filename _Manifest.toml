@@ -1,0 +1,17 @@
+[[PhysicalConstant]]
+deps = ["Measurements", "Test", "Unitful"]
+git-tree-sha1 = "2824a9a7745e8d2fc6c5a0148c2d2c7b3caee821"
+repo-rev = "master"
+repo-url = "https://github.com/LaGuer/PhysicalConstant.jl"
+uuid = "988cf3cc-0386-11e9-15da-fbc5ac71f155"
+version = "0.0.3"
+
+[[Unitful]]
+uuid = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+[[Measurements]]
+version = "1.0.2"
+uuid = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
+
+[[Test]]
+uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
